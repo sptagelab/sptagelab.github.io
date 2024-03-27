@@ -18,6 +18,8 @@
 
 - <b>projects</b> (Project websites' folder.)
 
+- <b>workshops</b> (Workshop websites' folder.)
+
 
 
 ## Notes

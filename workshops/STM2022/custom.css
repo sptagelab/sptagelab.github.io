@@ -1,0 +1,127 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* SIDEBAR ELEMENTS */
+/*------------------*/
+
+div.sidebar h1,
+div.sidebar h2,
+div.sidebar h3,
+div.sidebar h4,
+div.sidebar h5,
+div.sidebar h6 {
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 3px #111111;
+}
+
+.sidebar-color {
+    color: #f0f0f0;
+    background: #273c75 /* #00173b */
+}
+
+.pure-link-sidecolor {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.pure-menu-link-sidecolor {
+    color: #cccccc;
+}
+
+.pure-menu-link-sidecolor:hover{
+    color: #444444;
+    background-color:#f0f0f0
+}
+
+/* MAIN ELEMENTS */
+/*---------------*/
+
+.content-color {
+    background: #fbfbfb
+}
+
+.docs-static-lncs {
+    margin: 0 auto;
+    width: 150px;
+}
+
+.docs-section {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	letter-spacing: 0.1px;
+    line-height: 1.5;
+}
+
+div.content h1,
+div.content h2,
+div.content h3,
+div.content h4,
+div.content h5,
+div.content h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+    margin-top: 0;
+    letter-spacing: 0.5px;
+}
+
+.pure-link-color {
+    color: #888888;
+    text-decoration: none;
+}
+
+.pure-link-color:hover,
+.pure-link-color:focus {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: circle inside; 
+}
+ol {
+    list-style: decimal inside; 
+}
+ol, ul {
+    padding-left: 0;
+    margin-top: 0; 
+}
+ul ul, ul ol, ol ol, ol ul {
+    font-size: 100%;
+    margin: 1rem 0 1rem 3rem;
+}  
+
+/* MEDIA ELEMENTS             */
+/* First mobile, then desktop */
+/*----------------------------*/
+
+.header {
+    margin: 2em 2em 0;
+    text-align: center;
+}
+
+.content {
+    padding: 2em 3em 0;
+}
+
+@media (min-width: 48em) {
+    .header {
+        margin: 30% 2em 0;
+        text-align: right;
+    }
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 40%;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+    .docs-static-lncs {
+        position:absolute;
+        right: 10px;
+        top: 10px;
+    }
+}
