@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name = "format-detection" content = "telephone=no">
+    <title>CSS 2019</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+  </head>
+
+  <body>
+    <div class="site-background"></div>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="site-container">
+
+          <div class="site-section">
+            <div class="jumbotron">
+              <h1>CSS 2019</h1>
+              <p>11th International Symposium on Cyberspace Safety and Security<br>Guangzhou, China<br class="visible-xs"><a class="hidden-xs" style="color:white"> | </a>1-3 Dec 2019</p>
+            </div>
+          </div>
+
+          <div class="site-section">
+            <div class="mastnav">
+              <ul class="nav mastnav-toggle"><li><a data-toggle="collapse" href="#site-menu" id="toggle" class="collapsed">MENU - Venue</a></li></ul>
+            </div>
+            <div class="mastnav collapse navbar-collapse" id="site-menu">
+              <ul class="nav mastnav-nav">
+                <li><a href="index.html" class="jump-page">Home</a></li>
+                <li><a href="authors.html" class="jump-page">Authors</a></li>
+                <li><a href="journals.html" class="jump-page">Journals</a></li>
+                <li><a href="committees.html" class="jump-page">Committees</a></li>
+                <li><a href="program.html" class="jump-page">Program</a></li>
+                <li><a href="registration.html" class="jump-page">Registration</a></li>
+                <li class="active"><a>Venue</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="site-section hidden-xs">
+            <div id="myCarousel" class="carousel slide mastslide" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active"><img src="img/slide.jpg" alt="..."></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="site-section">
+            <div class="mastbody">
+              <h1>Conference Venue</h1>
+              <p class="lead">CSS 2019 will be held at the <strong><a href="http://en.scu-hotel.com" target="_blank">University Town International Hotel (广州华工大学城中心酒店)</a></strong>. The hotel is located in the Guangzhou Higher Education Mega Center (HEMC), also called Guangzhou University Town (广州大学城). HEMC is an area featured by higher education institutions, located on Xiaoguwei Island in Panyu District, Guangzhou, China.</p>
+              <h2>Gallery</h2>
+              <div class="row gallery">
+                <div class="col-xs-6 col-sm-3"><img src="img/venue1.jpg" class="img-venue"></div>
+                <div class="col-xs-6 col-sm-3"><img src="img/venue2.jpg" class="img-venue"></div>
+                <div class="col-xs-6 col-sm-3"><img src="img/venue3.jpg" class="img-venue"></div>
+                <div class="col-xs-6 col-sm-3"><img src="img/venue4.jpg" class="img-venue"></div>
+              </div>
+              <h2>Location</h2>
+              <div style="width:100%;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="site-section">
+            <div class="mastbody">
+              <h1>Directions</h1>
+              <h2>By Taxi</h2>
+              <p class="lead">The conference venue is located in the Guangzhou Higher Education Mega Center.</p>
+              <ul class="lead">
+                <li>30 km to Guangzhou Railway Station</li>
+                <li>24 km to Guangzhou East Railway Station</li>
+                <li>28 km to Guangzhou South Railway Station</li>
+                <li>61.8 km to Guangzhou Baiyun International Airport</li>
+              </ul>
+              <h2>By Metro</h2>
+              <p class="lead">The conference venue is 1.6 km (about 20 minutes walk) away from Guangzhou Metro Line 4 Higher Education Mega Center South Station (广州地铁四号线大学城南站).</p>
+              <table class="table table-bordered">
+                <tr class="lead"><td><strong>From Guangzhou Baiyun International Airport (广州白云国际机场)</strong>: 66 Minutes, 3 Interchanges, 24 Stops, 11 CNY<br>Get On: Airport North/South (机场北/机场南)<br><span class="label label-warning">Line 3</span><br> Interchange: Tiyu Xilu (体育西路)<br><span class="label label-warning">Line 3</span><br>Interchange: Kecun (客村)<br><span class="label label-info">Line 8</span><br>Interchange: Wanshengwei (万胜围)<br><span class="label label-success">Line 4</span><br>Get Off: Higher Education Mega Center South (大学城南)</td></tr>
+                <tr class="lead"><td><strong>From Guangzhou South Railway Station (广州南站)</strong> : 24 Minutes, 8 Stops, 5 CNY<br>Get On: Guangzhou South Railway Station (广州南站)<br><span class="label label-success">Line 7</span><br>Get Off: Higher Education Mega Center South (大学城南)</td></td></tr>
+                <tr class="lead"><td><strong>From Guangzhou Railway Station (广州站)</strong>: 44 Minutes, 1 Interchange, 16 Stops, 7 CNY<br>Get On: Guangzhou Railway Station (广州站)<br><span class="label label-danger">Line 5</span><br> Interchange: Chebeinan (车陂南)<br><span class="label label-success">Line 4</span><br>Get Off: Higher Education Mega Center South (大学城南)</td></tr>
+                <tr class="lead"><td><strong>From Guangzhou East Railway Station (广州东站)</strong>: 34 Minutes, 3 Interchanges, 13 Stops, 6 CNY<br>Get On: Guangzhou East Railway Station (广州东站)<br><span class="label label-warning">Line 1</span><br> Interchange: Tiyu Xilu (体育西路)<br><span class="label label-warning">Line 3</span><br>Interchange: Kecun (客村)<br><span class="label label-info">Line 8</span><br>Interchange: Wanshengwei (万胜围)<br><span class="label label-success">Line 4</span><br>Get Off: Higher Education Mega Center South (大学城南)</td></tr>
+              </table>
+              <div class="row gallery">
+                <div class="col-xs-6 col-sm-6 gallery-left"><p class="lead thumbnail-text"><strong>Metro Map</strong></p><a target="_blank" href="img/map-guangzhou-metro.jpg" class="small-image thumbnail"><img src="img/map-guangzhou-metro-small.jpg" class="img-sponsor"></a></div>
+                <div class="col-xs-6 col-sm-6 gallery-right"><p class="lead thumbnail-text"><strong>Walking Map</strong></p><a target="_blank" href="img/map-metro-to-hotel.png" class="small-image thumbnail"><img src="img/map-metro-to-hotel-small.png" class="img-sponsor"></a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="site-section">
+            <div class="row masttail">
+              <div class="col-xs-3 logo-1"><a target="_blank" href="http://www.gzhu.edu.cn"><img src="img/logo-gzhu2.png" alt="Guangzhou Univesity" class="img-sponsor"></a></div>
+              <div class="col-xs-3 logo-2"><a target="_blank" href="https://jsj.gzhu.edu.cn"><img src="img/logo-school2.png" alt="Guangzhou Univesity" class="img-sponsor"></a></div>
+              <div class="col-xs-3 logo-3"><a target="_blank" href="http://nsclab.org/"><img src="img/logo-nsclab.png" alt="NSCLab" class="img-sponsor"></a></div>
+              <div class="col-xs-3 logo-4"><a target="_blank" href="http://www.gzhu.edu.cn"><img src="img/logo-motto.png" alt="Springer" class="img-sponsor"></a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script type="text/javascript">
+        //创建和初始化地图函数：
+        function initMap(){
+            createMap();//创建地图
+            setMapEvent();//设置地图事件
+            addMapControl();//向地图添加控件
+            addMarker();//向地图中添加marker
+        }
+        
+        //创建地图函数：
+        function createMap(){
+            var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+            var point = new BMap.Point(113.412667,23.059637);//定义一个中心点坐标
+            map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+            window.map = map;//将map变量存储在全局
+        }
+        
+        //地图事件设置函数：
+        function setMapEvent(){
+            map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+            map.disableScrollWheelZoom();//禁用地图滚轮放大缩小，默认禁用(可不写)
+            map.disableDoubleClickZoom();//禁用鼠标双击放大
+            map.disableKeyboard();//禁用键盘上下左右键移动地图，默认禁用(可不写)
+        }
+        
+        //地图控件添加函数：
+        function addMapControl(){
+            //向地图中添加缩放控件
+      var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+      map.addControl(ctrl_nav);
+            //向地图中添加缩略图控件
+      var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+      map.addControl(ctrl_ove);
+            //向地图中添加比例尺控件
+      var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+      map.addControl(ctrl_sca);
+        }
+        
+        //标注点数组
+        var markerArr = [{title:"Guangzhou&nbsp;University&nbsp;Town&nbsp;Center&nbsp;SCU&nbsp;Hotel&nbsp;(广州华工大学城中心酒店)",content:"Address:&nbsp;Donger&nbsp;Road,&nbsp;Guangzhou&nbsp;University&nbsp;Town,&nbsp;Panyu&nbsp;District,&nbsp;Guangzhou,&nbsp;China<br/>酒店地址：广州市番禺区大学城东二路华工大学城（近中国银行大学城华工支行）",point:"113.41282|23.05967",isOpen:1,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+         ];
+        //创建marker
+        function addMarker(){
+            for(var i=0;i<markerArr.length;i++){
+                var json = markerArr[i];
+                var p0 = json.point.split("|")[0];
+                var p1 = json.point.split("|")[1];
+                var point = new BMap.Point(p0,p1);
+          var iconImg = createIcon(json.icon);
+                var marker = new BMap.Marker(point,{icon:iconImg});
+          var iw = createInfoWindow(i);
+          var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+          marker.setLabel(label);
+                map.addOverlay(marker);
+                label.setStyle({
+                            borderColor:"#808080",
+                            color:"#333",
+                            cursor:"pointer"
+                });
+          
+          (function(){
+            var index = i;
+            var _iw = createInfoWindow(i);
+            var _marker = marker;
+            _marker.addEventListener("click",function(){
+                this.openInfoWindow(_iw);
+              });
+              _iw.addEventListener("open",function(){
+                _marker.getLabel().hide();
+              })
+              _iw.addEventListener("close",function(){
+                _marker.getLabel().show();
+              })
+            label.addEventListener("click",function(){
+                _marker.openInfoWindow(_iw);
+              })
+            if(!!json.isOpen){
+              label.hide();
+              _marker.openInfoWindow(_iw);
+            }
+          })()
+            }
+        }
+        //创建InfoWindow
+        function createInfoWindow(i){
+            var json = markerArr[i];
+            var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+            return iw;
+        }
+        //创建一个Icon
+        function createIcon(json){
+            var icon = new BMap.Icon("img/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+            return icon;
+        }
+        
+        initMap();//创建和初始化地图
+    </script>
+  </body>
+</html>
