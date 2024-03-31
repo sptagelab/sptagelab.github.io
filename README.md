@@ -71,10 +71,6 @@ All website data entries are contained at: <b><u>data</u></b> directory.
       ```
     
     - ```textile
-      space : &nbsp;
-      ```
-    
-    - ```textile
       ( : &#40;
       ```
     
@@ -180,67 +176,69 @@ All website data entries are contained at: <b><u>data</u></b> directory.
                    |- <url>
       ```
   
-  - **\<faculties\>** : The collection entity for \<faculty\>
+  - **\<people\>** : The collection bunch of \<faculties\>, \<phds\>, \<postdocs\>, \<masters\>, \<bachelors\>, and \<awards\>
     
-    - **\<faculty\>** : The data entity of faculty
+    - **\<faculties\>** : The collection entity for \<faculty\>
       
-      - **\<name\>** : The name of the faculty [Mandatory]
-      
-      - **\<img\>** : The URL of the image for faculty. Relative path can be used. [Mandatory]
-      
-      - **\<position\>** : The position of the faculty. [Mandatory]
-      
-      - **\<desc\>** : The description of the faculty. [Mandatory]
-  
-  - **\<phds\>** : The collection entity for \<phd\>
-    
-    - **\<phd\>**: The data entity of Ph.D.
-      
-      - **\<name\>** : The name of the student. [Mandatory]
-      
-      - **\<url\>** : The URL to the student's personal site or profile. [Optional]
-      
-      - **\<duration\>** : The study duration of the student. [Mandatory]
-      
-      - **\<interest\>** : The research interest(s) of the student. [Optional]
-      
-      - **\<projects\>** : (<u>Use only If multiple projects were given to this student : </u> ) The collection entity for \<project\> [Optional]
+      - **\<faculty\>** : The data entity of faculty
         
-        - **\<project\>** : The main research project of the student. [Optional]
-      
-      - **\<specials\>** : (<u>Use only if multiple special courses / projects were given to this students : </u>) The collection entity for \<special\> [Optional]
+        - **\<name\>** : The name of the faculty [Mandatory]
         
-        - **\<special\>** : The special course of the student. [Optional]
-      
-      - **\<addendums\>** : (<u>Use only if multiple addendums were given to this students. : </u>) The collection entity for \<addendum\> [Optional]
+        - **\<img\>** : The URL of the image for faculty. Relative path can be used. [Mandatory]
         
-        - **\<addendum\>** : The additional information of the student. [Optional]
-  
-  - **\<postdocs\>** : The collection entity for \<postdoc\>
+        - **\<position\>** : The position of the faculty. [Mandatory]
+        
+        - **\<desc\>** : The description of the faculty. [Mandatory]
     
-    - **\<postdoc\>** : The data entity of PostDoc
+    - **\<phds\>** : The collection entity for \<phd\>
       
-      - (Same as PhD)
-  
-  - **\<masters\>** : The collection entity for \<master\>
+      - **\<phd\>**: The data entity of Ph.D.
+        
+        - **\<name\>** : The name of the student. [Mandatory]
+        
+        - **\<url\>** : The URL to the student's personal site or profile. [Optional]
+        
+        - **\<duration\>** : The study duration of the student. [Mandatory]
+        
+        - **\<interest\>** : The research interest(s) of the student. [Optional]
+        
+        - **\<projects\>** : (<u>Use only If multiple projects were given to this student : </u> ) The collection entity for \<project\> [Optional]
+          
+          - **\<project\>** : The main research project of the student. [Optional]
+        
+        - **\<specials\>** : (<u>Use only if multiple special courses / projects were given to this students : </u>) The collection entity for \<special\> [Optional]
+          
+          - **\<special\>** : The special course of the student. [Optional]
+        
+        - **\<addendums\>** : (<u>Use only if multiple addendums were given to this students. : </u>) The collection entity for \<addendum\> [Optional]
+          
+          - **\<addendum\>** : The additional information of the student. [Optional]
     
-    - **\<master\>** : The data entity of Master
+    - **\<postdocs\>** : The collection entity for \<postdoc\>
       
-      - (Same as PhD)
-  
-  - **\<bachelors\>** : The collection entity for \<bachelor\>
+      - **\<postdoc\>** : The data entity of PostDoc
+        
+        - (Same as PhD)
     
-    - **\<bachelor\>** : The data entity of Bachelor
+    - **\<masters\>** : The collection entity for \<master\>
       
-      - (Same as PhD)
-  
-  - **\<awards\>** : The collection entity for \<award\>
+      - **\<master\>** : The data entity of Master
+        
+        - (Same as PhD)
     
-    - **\<award\>** : The data entity for award
+    - **\<bachelors\>** : The collection entity for \<bachelor\>
       
-      - **\<name\>** : The title of the award. [Mandatory]
+      - **\<bachelor\>** : The data entity of Bachelor
+        
+        - (Same as PhD)
+    
+    - **\<awards\>** : The collection entity for \<award\>
       
-      - **\<url\>** : The URL toward the resource of the award. [Optional]
+      - **\<award\>** : The data entity for award
+        
+        - **\<name\>** : The title of the award. [Mandatory]
+        
+        - **\<url\>** : The URL toward the resource of the award. [Optional]
   
   - <i>Example</i>
     
@@ -344,7 +342,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
       </workBunch>
       ```
 
-- <b>events.xml</b> : The event information for the tab : Hosted Event.
+- <b>events.xml</b> : The event information for the tab : Hosted Events.
   
   - <i>Data Structure</i>
     
@@ -359,9 +357,38 @@ All website data entries are contained at: <b><u>data</u></b> directory.
               |- <desc>
       ```
   
-  - d
+  - **\<events\>** : The collection entity of \<event\>
+    
+    - **\<event\>** : The data entity of event. 
+      
+      - **\<title\>** : The title (presumbly abbr.) of the event. [Mandatory]
+      
+      - **\<type\>** : The event type. [Mandatory]
+      
+      - **\<location\>** : The location of the event. [Mandatory]
+      
+      - **\<date\>** : The duration of the date. [Mandatory]
+      
+      - **\<url\>** : The URL to the webpage of the event. [Optional]
+      
+      - **\<desc\>** : The description of the event. (Full title) [Optional]
+  
+  - <i>Example</i>
+    
+    - ```textile
+      <events>
+          <event>
+              <title>ACACONF 1995</title>
+              <type>Conference</type>
+              <location>City, Country</location>
+              <date>1-2 March, 1995</date>
+              <url>https://example.com</url>
+              <desc>The 1995 Academic Conference</desc>
+          </event>
+      </events>
+      ```
 
-- <b>footer.xml</b>
+- <b>footer.xml</b> : The affliation groups' information at the bottom of the page.
   
   - <i>Data Structure</i>
     
@@ -373,7 +400,27 @@ All website data entries are contained at: <b><u>data</u></b> directory.
                |- <img>
       ```
   
-  - d
+  - **\<relatedGroups\>** : The collection entity of \<relatedGroup\>
+    
+    - **\<relatedGroup\>** : The data entity of affiliation group's information
+      
+      - **\<name\>** : The name of the affiliation group. [Mandatory]
+      
+      - **\<url\>** : The URL to the webpage of the affiliation group. [Mandatory]
+      
+      - **\<img\>** : The image that represents the affiliation group. [Mandatory]
+  
+  - <i>Example</i>
+    
+    - ```textile
+      <relatedGroups>
+          <relatedGroup>
+              <name>Fabrikam Inc.</name>
+              <url>https://example.com</url>
+              <img>img/footer/fabrikam.png</img>
+          </relatedGroup>
+      </relatedGroups>
+      ```
 
  
 
