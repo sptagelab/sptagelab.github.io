@@ -26,15 +26,11 @@
 
 Data entries for important for modular SPT A.G.E. modular website. These data entries provide the data records for the DDB(Distributed Database.). Please read the following instruction carefully before editing these data entries.
 
-
-
 ### General rules for data entries:
 
 #### Storage Location:
 
 All website data entries are contained at: <b><u>data</u></b> directory.
-
-
 
 #### Expression and Context:
 
@@ -49,25 +45,25 @@ All website data entries are contained at: <b><u>data</u></b> directory.
       ```
     
     - ```textile
-      What you should do: &lt;b&gt;Emphasize this&lt;/b&gt;
+      What you should do: <b>Emphasize this</b>
       ```
   
-  - Commonly used HTML enties:
+  - Commonly used HTML entities:
     
     - ```textile
-      < : &lt;
+      < : <
       ```
     
     - ```textile
-      > : &gt;
+      > : >
       ```
     
     - ```textile
-      " : &quot;
+      " : "
       ```
     
     - ```textile
-      & : &amp;
+      & : &
       ```
     
     - ```textile
@@ -81,8 +77,6 @@ All website data entries are contained at: <b><u>data</u></b> directory.
     - For more information about HTML entities, take a look at this [table](https://www.freeformatter.com/html-entities.html)
 
 - <b>Latest record should be on the top.</b> DDB does not have any capabilities on sorting.
-
-
 
 #### About Data Entries
 
@@ -100,7 +94,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
     
     - ```textile
       <intro>
-          &lt;a href=&quot;https://example.com&quot;&gt;Lorem ipsum dolor sit amet&lt;/a&gt;, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <a href="https://example.com">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </intro>
       ```
 
@@ -421,8 +415,6 @@ All website data entries are contained at: <b><u>data</u></b> directory.
           </relatedGroup>
       </relatedGroups>
       ```
-
- 
 
 ## Notes
 
