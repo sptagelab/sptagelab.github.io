@@ -122,33 +122,39 @@ All website data entries are contained at: <b><u>data</u></b> directory.
     - ```textile
       <people>
          |- <faculties>
-              |- <name>
-              |- <img>
-              |- <position>
-              |- <desc>
+              |- <faculty>
+                   |- <name>
+                   |- <img>
+                   |- <position>
+                   |- <desc>
          |- <phds>
-              |- <name>
-              |- <url>
-              |- <duration>
-              |- <interest>
-              |- <project>
-              |- <projects> (When multiple projects were given)
+              |- <phd>
+                   |- <name>
+                   |- <url>
+                   |- <duration>
+                   |- <interest>
                    |- <project>
-              |- <special>
-              |- <specials> (When multiple special proj. were given)
+                   |- <projects> (When multiple projects were given)
+                        |- <project>
                    |- <special>
-              |- <addendum>
-              |- <addendums> (When multiple addendums were given)
+                   |- <specials> (When multiple special proj. were given)
+                        |- <special>
                    |- <addendum>
+                   |- <addendums> (When multiple addendums were given)
+                        |- <addendum>
          |- <postdocs>
-              |- (same as <phds>)
+              |- <postdoc>
+                   |- (same as <phds>)
          |- <masters>
-              |- (same as <phds>)
+              |- <master>
+                   |- (same as <phds>)
          |- <bachelors>
-              |- (same as <phds>)
+              |- <bachelor>
+                   |- (same as <phds>)
          |- <awards>
-              |- <name>
-              |- <url>
+              |- <award>
+                   |- <name>
+                   |- <url>
       ```
   
   - **\<faculties\>**
