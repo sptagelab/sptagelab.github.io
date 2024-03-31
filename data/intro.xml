@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<intro>
+	&lt;img src=&quot;img/home/logo-square.jpg&quot; alt=&quot;Laboratory Logo Square&quot; width=&quot;100&quot;&gt;
+	&lt;p class=&quot;lead&quot;&gt;&lt;b&gt;SPTAGE Lab&lt;/b&gt; is directed by Dr. Weizhi Meng in the DTU Compute, Technical University of Denmark, focusing on cutting edge research on Security, Privacy and Trust in Communication and Information Systems. &lt;br&gt;&lt;br&gt;
+	To address application and practical security challenges in Denmark and beyond, we leverage various techniques such as artificial intelligence, blockchain, machine learning, protocol analysis, behavior monitoring, applied cryptography, etc. Our current research topics include: &lt;br&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Artificial intelligence&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Blockchain technology&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Biometric authentication&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Cyber intelligence techniques&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Intrusion detection&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;IoT/CPS security&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Malware detection&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Risk analysis&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Smartphone security&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Trust management&lt;/span&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;span class=&quot;lead&quot;&gt;Usable security and privacy&lt;/span&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/p&gt;
+	&lt;br&gt;
+</intro>

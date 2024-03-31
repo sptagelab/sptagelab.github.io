@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<people>
+    <faculties>
+        <faculty>
+            <name>Weizhi Meng</name>
+            <img>img/people/weizhi.jpg</img>
+            <position>Associate Professor</position>
+            <desc>
+                &lt;a href=&quot;https://sptagelab.gitlab.io/&quot;&gt;&lt;font color=&quot;blue&quot;>SPTAGE Lab&lt;/font&gt;&lt;/a&gt;&lt;br&gt;
+                &lt;a href=&quot;http://www.compute.dtu.dk/english&quot;&gt;Department of Applied Mathematics and Computer Science&lt;/a&gt;&lt;br&gt;
+                Technical University of Denmark (DTU)&lt;br&gt;
+                Office: Room 230, Building 322 &lt;br&gt;
+                Email: weme [AT] dtu.dk
+            </desc>
+        </faculty>
+
+        <!-- instructors -->
+        <!--
+            <tbody>
+                <tr>
+                <td valign="top">
+                    <img alt="Weizhi Meng" border="1" hspace="4" src="https://www.dtu.dk/gimage.ashx?i=VHJ1ZV9ffHxfX2h0dHBzOi8vd3d3LmR0dWJhc2VuLmR0dS5kay9zaG93aW1hZ2UuYXNweD9pZD0xMTY2OTBfX3x8X18xMDNfX3x8X18xNDBfX3x8X19UcnVlX198fF9fRmFsc2VfX3x8X19GYWxzZV9ffHxfXzBfX3x8X19fX3x8X18w" vspace="5" width="130"> 
+                </td>
+                <td>
+                    <font size="+0"><strong>Weizhi Meng<br></strong></font>
+                    Associate Professor
+                    <hr noshade="noshade">
+                    <a href="https://sptage.compute.dtu.dk/"><font color="blue">SPTAGE Lab</font></a><br>
+                    <a href="http://www.compute.dtu.dk/english">Department of Applied Mathematics and Computer Science</a><br>
+                    Technical University of Denmark (DTU)<br>
+                    Office: Room 230, Building 322 <br>
+                    Email: weme [AT] dtu.dk
+                </td>
+                </tr>
+            </tbody>
+        -->
+    </faculties>
+
+    <phds>
+        <!-- phds -->
+        <!--
+            <a target="_blank" href="https://www.dtu.dk/english/person/brooke-elizabeth-lampe"><u>Brooke Elizabeth Lampe</u></a> [2022.11-]<br> 
+                        <b>Project:</b> A Deep Learning and Blockchain-based IDS for Autonomous Vehicles in Smart Cities <br>
+                        <b>Research Interest: Autonomous Vehicles, Cyber Security, Deep Learning</b><br><br>
+        -->
+        <phd>
+            <name>Brooke Elizabeth Kidmose</name>
+            <url>https://orbit.dtu.dk/en/persons/brooke-elizabeth-kidmose</url>
+            <duration>2022.11-</duration>
+            <project>A Deep Learning and Blockchain-based IDS for Autonomous Vehicles in Smart Cities</project>
+            <interest>Autonomous Vehicles, Cyber Security, Deep Learning</interest>
+        </phd>
+
+        <phd>
+            <name>Wei-Yang Chiu</name>
+            <url>https://tlchiu40209.github.io/</url>
+            <duration>2019.12-2023.03</duration>
+            <project>NoPKI: A Point-to-Point Trusted Party Service based on Blockchain Consensus Algorithm</project>
+            <interest>Cyber Security, Blockchain</interest>
+        </phd>
+
+        <phd>
+            <name>Eirik Oterholm Nielsen</name>
+            <url>#</url>
+            <duration>2021.01-2023.12</duration>
+            <project>Youth Communities for Cyber Security focusing on Offensive Security</project>
+            <interest>Cyber Security</interest>
+        </phd>
+
+        <phd>
+            <name>(Alumni) Shizra Sultan</name>
+            <url>#</url>
+            <duration>2018.02-2021.06</duration>
+            <project>Context-Aware Access Control</project>
+            <special>Privacy measures for protecting personal information in Smart Cities</special>
+            <interest>Cyber Security, Access Control</interest>
+        </phd>
+    </phds>
+
+    <postdocs>
+        <postdoc>
+            <name>Wei-Yang Chiu</name>
+            <url>https://tlchiu40209.github.io</url>
+            <duration>2023.03-2023.12</duration>
+            <interest>Cyber Security, Blockchain</interest>
+        </postdoc>
+
+        <postdoc>
+            <name>(Alumni) Rishikesh Sahay</name>
+            <url>#</url>
+            <duration>2017.12-2019.5</duration>
+            <interest>Cyber Security, SDN Security</interest>
+        </postdoc>
+    </postdocs>
+
+    <masters>
+        <master>
+            <name>Stefanie Nielson</name>
+            <url>#</url>
+            <duration>2023.09-2024.02</duration>
+            <project>Cloud-based Intrusion Detection Systems with AI-driven Decision Support</project>
+        </master>
+        <master>
+            <name>Marius Mateescu</name>
+            <url>#</url>
+            <duration>2023.09-2024.02</duration>
+            <project>Security of BLE-Based Smart Locks: Vulnerability Assessment and Authentication Enhancements</project>
+        </master>
+        <master>
+            <name>Gustav Emi Nobert and Anton Ost Schmidt</name>
+            <url>#</url>
+            <duration>2023.09-2024.02</duration>
+            <project>Smart Grids Empowered: Decentralized Power Distribution Using Blockchain</project>
+        </master>
+        <master>
+            <name>Louis Christensen</name>
+            <url>#</url>
+            <duration>2023.08-2024.01</duration>
+            <project>Forensic analysis of encrypted mobile apps</project>
+        </master>
+        <master>
+            <name>Jiaxuan Wu</name>
+            <url>#</url>
+            <duration>2023.06-2023.11</duration>
+            <project>Exploring EEG-Based Multi-Modal Authentication Systems Against Shoulder Surfing Attacks: A Study</project>
+        </master>
+        <master>
+            <name>Andreas Fo Larsen</name>
+            <url>#</url>
+            <duration>2023.04-2023.09</duration>
+            <project>Improving identification of attack surfaces through enrichment of open source intelligence</project>
+        </master>
+        <master>
+            <name>Vince Biro</name>
+            <url>#</url>
+            <duration>2023.02-2023.08</duration>
+            <project>Secure IoT Firmware Dispatch System with Blockchain</project>
+        </master>
+        <master>
+            <name>Albert Planes Seuma</name>
+            <url>#</url>
+            <duration>2023.02-2023.07</duration>
+            <project>An analysis of modern malware: monitorization, replication and mitigation of the main tool of the cybercriminals</project>
+        </master>
+        <master>
+            <name>Elena Catalina Barbulescu</name>
+            <url>#</url>
+            <duration>2023.02-2023.07</duration>
+            <project>EEG data collection framework for a unique pattern recognition used for an authentication token</project>
+        </master>
+        <master>
+            <name>Chunxue Li</name>
+            <url>#</url>
+            <duration>2023.02-2023.07</duration>
+            <project>EEG-based Authentication With Transformer</project>
+        </master>
+        <master>
+            <name>Razy Youhana Adam</name>
+            <url>#</url>
+            <duration>2023.01-2023.05</duration>
+            <project>Securing 5G positioning with the help of Zero Trust Architecture</project>
+        </master>
+        <master>
+            <name>Zheng Wang</name>
+            <url>#</url>
+            <duration>2023.01-2023.07</duration>
+            <project>A Novel Process for EEG-based Authentication with Motor Imagery Brain-Computer Interface</project>
+        </master>
+        <master>
+            <name>Isaac Irani</name>
+            <url>#</url>
+            <duration>2023.02-2023.07</duration>
+            <project>Migration to a Kubernetes based Microservice Architecture managed with a Service Mesh</project>
+        </master>
+        <master>
+            <name>Sarwar Alam Sajib</name>
+            <url>#</url>
+            <duration>2023.01-2023.06</duration>
+            <project>Fuzzing Smart Contracts in Blockchain for Vulnerability Detection</project>
+        </master>
+        <master>
+            <name>Bingkun Wu</name>
+            <url>#</url>
+            <duration>2022.09-2023.03</duration>
+            <project>Toward correctness for entity stream on distributed system</project>
+        </master>
+        <master>
+            <name>Jacob Ruager</name>
+            <url>#</url>
+            <duration>2022.09-2023.02</duration>
+            <project>Planning, Designing and Implementing a Security Operations Center for a Managed Service Provider</project>
+        </master>
+        <master>
+            <name>Jyoti Prabha Tuladhar</name>
+            <url>#</url>
+            <duration>2022.08-2023.01</duration>
+            <project>Blockchain Based IDS for Energy Infrastructure</project>
+        </master>
+        <master>
+            <name>Grzegorz Jacek Kot</name>
+            <url>#</url>
+            <duration>2022.08-2023.01</duration>
+            <project>Security of offshore installation operations against the threat of AIS spoofing</project>
+        </master>
+        <master>
+            <name>Rami Haddad</name>
+            <url>#</url>
+            <duration>2022.08-2023.06</duration>
+            <project>Open API Specification Extended Security Scheme: A method to reduce the prevalence of Broken Object Level Authorization</project>
+        </master>
+        <master>
+            <name>Alexander Welsch Carlsen</name>
+            <url>#</url>
+            <duration>2022.08-2023.06</duration>
+            <project>Automation of SOC analysis using SOAR</project>
+        </master>
+        <master>
+            <name>Alexandru Rusescu</name>
+            <url>#</url>
+            <duration>2022.03-2022.08</duration>
+            <project>Enabling user privacy in online settings</project>
+        </master>
+        <master>
+            <name>Johan Hagelskjar Sjursen</name>
+            <url>#</url>
+            <duration>2022.02-2022.07</duration>
+            <project>Scaling decentralized blockchains</project>
+        </master>
+        <master>
+            <name>Abdelali Khatibi</name>
+            <url>#</url>
+            <duration>2022.01-2022.07</duration>
+            <project>Securing cloud native applications</project>
+        </master>
+        <master>
+            <name>Andreas Moller Jorgensen (Co-Supervised)</name>
+            <url>#</url>
+            <duration>2022.01-2022.07</duration>
+            <project>Supersingular Isogeny Diffie Hellman Key Exchange / Lattice-based cryptography</project>
+        </master>
+        <master>
+            <name>Janis Jorg Stielow</name>
+            <url>#</url>
+            <duration>2022.01-2022.06</duration>
+            <project>Analysing Blockchain Ethics using Directed Acyclic Graphs</project>
+        </master>
+        <master>
+            <name>Bodi</name>
+            <url>#</url>
+            <duration>2021.10-2022.03</duration>
+            <project>Intrusion detection-enabled blockchain based vehicular navigation map system</project>
+        </master>
+        <master>
+            <name>Zhengzhong Sun</name>
+            <url>#</url>
+            <duration>2021.09-2022.03</duration>
+            <project>A consensus algorithm based on Random Number Generation</project>
+        </master>
+        <master>
+            <name>Yiming Sun</name>
+            <url>#</url>
+            <duration>2021.09-2022.03</duration>
+            <project>An authentication system based on in-air gesture</project>
+        </master>
+        <master>
+            <name>Mads Solberg Collingwood Pyke</name>
+            <url>#</url>
+            <duration>2021.09-2022.02</duration>
+            <project>Explainable deep learning for changes in firewall rules based on internal network traffic</project>
+        </master>
+        <master>
+            <name>Fahad Ali Sajad</name>
+            <url>#</url>
+            <duration>2021.09-2022.04</duration>
+            <project>Secure validation of e-tickets in transit scenarios</project>
+            <special>Research on existing solutions for e-ticket validation in transit scenarios</special>
+        </master>
+        <master>
+            <name>Rami Haddad</name>
+            <url>#</url>
+            <duration>2021.08-2022.07</duration>
+            <project>Open API Specification Extended Security Scheme: A method to reduce the prevalence of Broken Object Level Authorization</project>
+            <addendum>Research in collaboration with Cisco</addendum>
+        </master>
+        <master>
+            <name>Mikkel Bochman and Jacob Krabbe Pedersen</name>
+            <url>#</url>
+            <duration>2021.08-2022.01</duration>
+            <project>Security in satellite communication</project>
+        </master>
+        <master>
+            <name>Jonathan Kvist Brittain</name>
+            <url>#</url>
+            <duration>2021.06-2022.06</duration>
+            <project>Scalable and privacy-preserving blockchain-based parking system</project>
+            <specials>
+                <special>Privacy preserving and GDPR compliant Blockchain-based applications</special>
+                <special>Blockchain-based Parking System in Denmark</special>
+            </specials>
+        </master>
+        <master>
+            <name>Xingguo Sun</name>
+            <url>#</url>
+            <duration>2021.02-2021.07</duration>
+            <project>A transfer deep learning based intrusion detection system</project>
+        </master>
+        <master>
+            <name>Mohamad Muwfak Hlal</name>
+            <url>#</url>
+            <duration>2021.01-2021.06</duration>
+            <project>Security and Authentication in BLE</project>
+        </master>
+        <master>
+            <name>Andrei Nicolae Calugar</name>
+            <url>#</url>
+            <duration>2020.10-2021.04</duration>
+            <project>Intrusion detection based on artificial neural network approach</project>
+        </master>
+        <master>
+            <name>Li Wang</name>
+            <url>#</url>
+            <duration>2020.7-2021.01</duration>
+            <project>An Unlock scheme on mobile phones using handwritten graphics</project>
+            <special>Forgery difficulty prediction of handwritten graphics password</special>
+        </master>
+        <master>
+            <name>Gergely Tusko</name>
+            <url>#</url>
+            <duration>2020.09-2021.03</duration>
+            <project>Extending pattern-based authentication on Android with biometrics</project>
+        </master>
+        <master>
+            <name>Zihao Li</name>
+            <url>#</url>
+            <duration>2020.08-2021.01</duration>
+            <project>Analysis of DDoS attacks against content delivery networks</project>
+        </master>
+        <master>
+            <name>Martin Hemmingsen and Benjamin Wrist Lam</name>
+            <url>#</url>
+            <duration>2020.08-2021.01</duration>
+            <project>Pattern Matching for Intrusion Detection Systems</project>
+        </master>
+        <master>
+            <name>Mads Kring Jakobsen</name>
+            <url>#</url>
+            <duration>2020.08-2021.01</duration>
+            <project>Security in Microservice Architectures</project>
+        </master>
+        <master>
+            <name>Mohamad Suhel Hicham Aldalati</name>
+            <url>#</url>
+            <duration>2020.03-2020.10</duration>
+            <project>Mitigating IoT-based DDoS attacks using SDN</project>
+        </master>
+        <master>
+            <name>Kamal Raj Sharma</name>
+            <url>#</url>
+            <duration>2020.01-2020.08</duration>
+            <project>Attacking and Protection of Social Media Networks</project>
+        </master>
+        <master>
+            <name>Malamin Bah</name>
+            <url>#</url>
+            <duration>2020.01-2020.06</duration>
+            <project>Hybrid IDS using machine learning in cloud environments</project>
+        </master>
+        <master>
+            <name>Alexander Godeke</name>
+            <url>#</url>
+            <duration>2020.01-2020.06</duration>
+            <project>Machine Learning for IDS alert classification</project>
+        </master>
+        <master>
+            <name>Kiruthiga Subramanian</name>
+            <url>#</url>
+            <duration>2019.08-2020.03</duration>
+            <project>Threat Detection using Elastic Stack</project>
+        </master>
+        <master>
+            <name>Anojjan Kanagaratnam</name>
+            <url>#</url>
+            <duration>2019.03-2019.08</duration>
+            <project>Privacy Enhancement for Public Train Ticket System</project>
+        </master>
+        <master>
+            <name>Abdirizak Abdirahman Mohamud Yusuf</name>
+            <url>#</url>
+            <duration>2019.01-2019.07</duration>
+            <project>Designing Attacks on Cybership Controllers</project>
+        </master>
+        <master>
+            <name>Nur-A Azad and Motalib Hossain Bhuyan</name>
+            <url>#</url>
+            <duration>2018.01-2018.07</duration>
+            <project>Securing Communication Channel between Smartphones and IoT</project>
+        </master>
+        <master>
+            <name>Haotian Liu and Zheng Zhu</name>
+            <url>#</url>
+            <duration>2023.02-2023.05</duration>
+            <special>Machine learning and security issues for gait recognition systems</special>
+        </master>
+        <master>
+            <name>Yiming Sun</name>
+            <url>#</url>
+            <duration>2023.01-2023.03</duration>
+            <special>Optimize In-Air Hand Gesture-Based User Authentication System</special>
+        </master>
+        <master>
+            <name>Peichen Liu and Jiaxuan Wu</name>
+            <url>#</url>
+            <duration>2023.02-2023.04</duration>
+            <special>Polymorphic Game-related Malware Detection</special>
+        </master>
+        <master>
+            <name>Bingkun Wu</name>
+            <url>#</url>
+            <duration>2021.08-2021.12</duration>
+            <special>Research on EEG-based Biometric</special>
+        </master>
+        <master>
+            <name>Jiaxuan Wu</name>
+            <url>#</url>
+            <duration>2021.09-2021.12</duration>
+        <special>Research on Used Computer Trading System via Blockchain</special>
+        </master>
+        <master>
+            <name>Giacomo Peter Troiano</name>
+            <url>#</url>
+            <duration>2021.02-2021.05</duration>
+            <special>Web Application Security Testing</special>
+        </master>
+        <master>
+            <name>Andrei Sabau</name>
+            <url>#</url>
+            <duration>2020.08-2020.11</duration>
+            <special>IoT Security Overview</special>
+        </master>
+        <master>
+            <name>Gonzalo Rubio Casas</name>
+            <url>#</url>
+            <duration>2019.09-2019.10</duration>
+            <special>Logging Gathering and Processing for Security Incidents</special>
+        </master>
+        <master>
+            <name>Bilal Ahmad El Ghoul</name>
+            <url>#</url>
+            <duration>2019.04-2019.05</duration>
+            <special>Introduction to Reverse Engineering</special>
+        </master>
+    </masters>
+
+    <bachelors>
+        <bachelor>
+            <name>Victor Rodrigues Andersen, Bastian Preisel, and August Lykke Thomsen</name>
+            <url>#</url>
+            <duration>2022.03-2022.06</duration>
+            <project>6G Connection Strategy with Blockchain</project>
+        </bachelor>
+        <bachelor>
+            <name>Mikkel Theiss Westermann</name>
+            <url>#</url>
+            <duration>2022.02-2022.05</duration>
+            <project>Blockchain-based Enterprise Resources Planning</project>
+        </bachelor>
+        <bachelor>
+            <name>Ugne Adamonyte</name>
+            <url>#</url>
+            <duration>2022.02-2022.05</duration>
+            <project>Popular web security methods in modern software applications</project>
+        </bachelor>
+        <bachelor>
+            <name>Sara Maria Guijarro</name>
+            <url>#</url>
+            <duration>2021.09-2022.01</duration>
+            <project>Explainable deep learning for changes in firewall rules based on internal network traffic</project>
+        </bachelor>
+        <bachelor>
+            <name>Wictor Lang Jensen and Sille Jessing</name>
+            <url>#</url>
+            <duration>2021.02-2021.07</duration>
+            <project>Design of a blockchain-based supply chain for airports</project>
+        </bachelor>
+        <bachelor>
+            <name>Malthe Andreas Lejbolle Jelstrup and Simon Lucas Jonker</name>
+            <url>#</url>
+            <duration>2021.02-2021.06</duration>
+            <project>Detecting post editing of images using machine learning and data mining</project>
+        </bachelor>
+        <bachelor>
+            <name>Katherine Cardoso Petulante Fernandes</name>
+            <url>#</url>
+            <duration>2021.02-2021.05</duration>
+            <project>Designing a web-scraping tool for detecting malware based on IOCs</project>
+        </bachelor>
+        <bachelor>
+            <name>Simon Lucas Jonker</name>
+            <url>#</url>
+            <duration>2021.02-2021.04</duration>
+            <project>Browser extension with prompt for entity / IOC for OSINT Collection</project>
+        </bachelor>
+        <bachelor>
+            <name>Andreas Heidelbach Engly and Anton Ruby Larsen</name>
+            <url>#</url>
+            <duration>2020.02-2020.05</duration>
+            <project>Machine Learning Techniques for Intrusion Detection Systems</project>
+        </bachelor>
+        <bachelor>
+            <name>Christian Sulbak Bogelund and Deina Kellezi</name>
+            <url>#</url>
+            <duration>2019.01-2019.06</duration>
+            <project>Open Banking Security</project>
+        </bachelor>
+    </bachelors>
+
+    <awards>
+        <award>
+            <name>Best Paper Award for ProvSec 2022</name>
+            <url>#</url>
+        </award>
+        <award>
+            <name>Best Paper Award for SciSec 2022</name>
+            <url>#</url>
+        </award>
+        <award>
+            <name>Honorary Mention Award for IEEE ComSoc Student Competition "Communications Technology Changing the World" 2021 (Wei-Yang Chiu)</name>
+            <url>#</url>
+        </award>
+        <award>
+            <name>Award for IEEE ComSoc EMEA Region Call for Student Project Ideas for Industry Panels (Mohamad Muwfak Hlal)</name>
+            <url>#</url>
+        </award>
+        <award>
+            <name>Best Paper Award for BlockSys 2021</name>
+            <url>#</url>
+        </award>
+        <award>
+            <name>Best Student Paper Award for SpaCCS 2020</name>
+            <url>#</url>
+        </award>
+        <award>
+            <name>Best Paper Award for FCS 2020</name>
+            <url>#</url>
+        </award>
+        <award>
+            <name>Award for IEEE ComSoc EMEA Region Call for Student Project Ideas for Industry Panels (Wei-Yang Chiu)</name>
+            <url>#</url>
+        </award>
+    </awards>
+
+    <!--
+            <name></name>
+            <url>#</url>
+            <duration></duration>
+            <project></project>
+            <interest></interest>
+            <special></special>
+            <addendum></addendum>
+    -->
+</people>

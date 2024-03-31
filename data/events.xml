@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<events>
+    <event>
+        <title>EISA 2024</title>
+        <type>Symposium</type>
+        <location>Changzhou, China</location>
+        <date>30 September, 2024</date>
+        <url>EISA2024/</url>
+        <desc>The 5th International Symposium on Emerging Information Security and Applications</desc>
+    </event>
+    <event>
+        <title>AIBlock 2024</title>
+        <type>Workshop</type>
+        <location>Abu Dhabi, United Arab Emirates</location>
+        <date>5-8 March, 2024</date>
+        <url>workshops/AIBLOCK2024/</url>
+        <desc>The 6th International Workshop on Application Intelligence and Blockchain Security</desc>
+    </event>
+    <event>
+        <title>EISA 2023</title>
+        <type>Symposium</type>
+        <location>Hangzhou, China</location>
+        <date>6-7 December, 2023</date>
+        <url>symposiums/EISA2023/</url>
+        <desc>The 4th International Symposium on Emerging Information Security and Applications</desc>
+    </event>
+    <event>
+        <title>CCS 2023</title>
+        <type>Conference</type>
+        <location>Copenhagen, Denmark</location>
+        <date>26-30 November, 2023</date>
+        <url>https://www.sigsac.org/ccs/CCS2023/</url>
+        <desc>The 30th ACM Conference on Computer and Communications Security</desc>
+    </event>
+    <event>
+        <title>ADIoT 2023</title>
+        <type>Workshop</type>
+        <location>The Hague, Netherland</location>
+        <date>25-29 September, 2023</date>
+        <url>workshops/ADIOT2023/</url>
+        <desc>The 6th International Workshop on Attacks and Defenses for Internet-of-Things</desc>
+    </event>
+    <event>
+        <title>ISPEC 2023</title>
+        <type>Conference</type>
+        <location>Copenhagen, Denmark</location>
+        <date>24-25 August, 2023</date>
+        <url>conferences/ISPEC2023/</url>
+        <desc>The 18th International Conference on Information Security Practice and Experience</desc>
+    </event>
+    <event>
+        <title>PST 2023</title>
+        <type>Conference</type>
+        <location>Copenhagen, Denmark</location>
+        <date>21-23 August, 2023</date>
+        <url>https://pstnet.ca/pst2023/</url>
+        <desc>The 20th Annual International Conference on Privacy, Security &amp; Trust</desc>
+    </event>
+    <event>
+        <title>ASSS 2023</title>
+        <type>Symposium</type>
+        <location>Melbourne, Australia</location>
+        <date>10 July, 2023</date>
+        <url>symposiums/ASSS2023/</url>
+        <desc>The 3rd International Symposium on Advanced Security on Software and Systems</desc>
+    </event>
+    <event>
+        <title>AIBlock 2023</title>
+        <type>Workshop</type>
+        <location>Kyoto, Japan</location>
+        <date>19-22 June, 2023</date>
+        <url>workshops/AIBLOCK2023/</url>
+        <desc>The 5th International Workshop on Application Intelligence and Blockchain Security</desc>
+    </event>
+    <event>
+        <title>EISA 2022</title>
+        <type>Symposium</type>
+        <location>Copenhagen, Denmark</location>
+        <date>29-30 October, 2022</date>
+        <url>symposiums/EISA2022/</url>
+        <desc>The 3rd International Symposium on Emerging Information Security and Applications</desc>
+    </event>
+    <event>
+        <title>ICA3PP 2022</title>
+        <type>Conference</type>
+        <location>Copenhagen, Denmark</location>
+        <date>10-12 October, 2022</date>
+        <url>conferences/ICA3PP2022/</url>
+        <desc>The 22nd International Conference on Algorithms and Architectures for Parallel Processing</desc>
+    </event>
+    <event>
+        <title>ESORICS 2022</title>
+        <type>Conference</type>
+        <location>Copenhagen, Denmark</location>
+        <date>26-30 September, 2022</date>
+        <url>conferences/ESORICS2022/</url>
+        <desc>The 27th European Symposium on Research in Computer Security</desc>
+    </event>
+    <event>
+        <title>ADIoT 2022</title>
+        <type>Workshop</type>
+        <location>Copenhagen, Denmark</location>
+        <date>29-30 September, 2022</date>
+        <url>workshops/ADIOT2021/</url>
+        <desc>The 5th International Workshop on Attacks and Defenses for Internet-of-Things</desc>
+    </event>
+    <event>
+        <title>STM 2022</title>
+        <type>Workshop</type>
+        <location>Copenhagen, Denmark</location>
+        <date>26-30 September, 2022</date>
+        <url>workshops/STM2022/</url>
+        <desc>The 18th International Workshop on Security and Trust Management</desc>
+    </event>
+    <event>
+        <title>AIBlock 2022</title>
+        <type>Workshop</type>
+        <location>Rome, Italy</location>
+        <date>20-23 June, 2022</date>
+        <url>workshops/AIBLOCK2022/</url>
+        <desc>The 4th International Workshop on Application Intelligence and Blockchain Security</desc>
+    </event>
+    <event>
+        <title>IFIPSEC 2022</title>
+        <type>Conference</type>
+        <location>Copenhagen, Denmark</location>
+        <date>13-15 June, 2022</date>
+        <url>conferences/IFIPSEC2022/</url>
+        <desc>The 37th International Conference on ICT Systems Security and Privacy Protection</desc>
+    </event>
+    <event>
+        <title>ASSS 2022</title>
+        <type>Symposium</type>
+        <location>Genoa, Italy</location>
+        <date>6 June, 2022</date>
+        <url>symposiums/ASSS2022/</url>
+        <desc>The 2nd International Symposium on Advanced Security on Software and Systems</desc>
+    </event>
+    <event>
+        <title>EISA 2021</title>
+        <type>Symposium</type>
+        <location>Copenhagen, Denmark</location>
+        <date>12-13 November, 2021</date>
+        <url>symposiums/EISA2021/</url>
+        <desc>The 2nd International Symposium on Emerging Information Security and Applications</desc>
+    </event>
+    <event>
+        <title>CSS 2021</title>
+        <type>Symposium</type>
+        <location>Copenhagen, Denmark</location>
+        <date>9-11 November, 2021</date>
+        <url>symposiums/CSS2021/</url>
+        <desc>The 13th International Symposium on Cyberspace Safety and Security</desc>
+    </event>
+    <event>
+        <title>ADIoT 2021</title>
+        <type>Workshop</type>
+        <location>Darmstadt, Germany</location>
+        <date>4-8 October, 2021</date>
+        <url>workshops/ADIOT2021/</url>
+        <desc>The 4th International Workshop on Attacks and Defenses for Internet-of-Things</desc>
+    </event>
+    <event>
+        <title>AIBlock 2021</title>
+        <type>Workshop</type>
+        <location>Kamakura, Japan</location>
+        <date>21-24 June, 2021</date>
+        <url>workshops/AIBLOCK2021/</url>
+        <desc>The 3rd International Workshop on Application Intelligence and Blockchain Security</desc>
+    </event>
+    <event>
+        <title>ASSS 2021</title>
+        <type>Symposium</type>
+        <location>Hong Kong (S.A.R.)</location>
+        <date>7 June, 2021</date>
+        <url>symposiums/ASSS2021/</url>
+        <desc>The 1st International Symposium on Advanced Security on Software and Systems</desc>
+    </event>
+    <event>
+        <title>EISA 2020</title>
+        <type>Symposium</type>
+        <location>Nanjing, China</location>
+        <date>18-20 December, 2020</date>
+        <url>symposiums/EISA2020/</url>
+        <desc>The 1st International Symposium on Emerging Information Security and Applications</desc>
+    </event>
+    <event>
+        <title>AIBlock 2020</title>
+        <type>Workshop</type>
+        <location>Rome, Italy</location>
+        <date>19-22 October, 2020</date>
+        <url>workshops/AIBLOCK2020/</url>
+        <desc>The 2nd International Workshop on Application Intelligence and Blockchain Security</desc>
+    </event>
+    <event>
+        <title>ADIoT 2020</title>
+        <type>Workshop</type>
+        <location>Surrey, United Kingdom</location>
+        <date>14-18 September, 2020</date>
+        <url>workshops/ADIOT2020/</url>
+        <desc>The 3rd International Workshop on Attacks and Defenses for Internet-of-Things</desc>
+    </event>
+    <event>
+        <title>ICICS 2020</title>
+        <type>Conference</type>
+        <location>Copenhagen, Denmark</location>
+        <date>24-27 August, 2020</date>
+        <url>conferences/ICICS2020/</url>
+        <desc>The 22nd International Conference on Information and Communications Security</desc>
+    </event>
+    <event>
+        <title>ADIoT 2019</title>
+        <type>Workshop</type>
+        <location>Luxembourg, Luxembourg</location>
+        <date>23-27 September, 2019</date>
+        <url>workshops/ADIOT2019/</url>
+        <desc>The 2nd International Workshop on Attacks and Defenses for Internet-of-Things</desc>
+    </event>
+    <event>
+        <title>AIBlock 2019</title>
+        <type>Workshop</type>
+        <location>Bogota, Colombia</location>
+        <date>5-7 June, 2019</date>
+        <url>workshops/AIBLOCK2019/</url>
+        <desc>The 1st International Workshop on Application Intelligence and Blockchain Security</desc>
+    </event>
+    <event>
+        <title>ADIoT 2018</title>
+        <type>Workshop</type>
+        <location>Beijing, China</location>
+        <date>30 May - 1 June, 2018</date>
+        <url>https://cns2018.ieee-cns.org/workshop/adiot-international-workshop-attacks-and-defenses-internet-things-0.html</url>
+        <desc>The 1st International Workshop on Attacks and Defenses for Internet-of-Things</desc>
+    </event>
+</events>
+
+<!--
+    <event>
+        <title></title>
+        <type></type>
+        <location></location>
+        <date></date>
+        <url></url>
+        <desc></desc>
+    </event>
+-->

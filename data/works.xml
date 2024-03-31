@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<worksBunch>
+    <work>
+        <title>&lt;b&gt;DevLeChain: A Blockchain Development Platform for Researchers and Educators&lt;/b&gt; (IEEE Blockchain 2022)</title>
+        <desc>Put Blockchain Technology Application and Development at Ease</desc>
+        <img>img/works/blockchain.jpg</img>
+        <buttons>
+            <button>
+                <button_text>Website</button_text>
+                <button_url>https://sptagelab.github.io/DevLeChain</button_url>
+            </button>
+            <button>
+                <button_text>IEEE Blockchain 2022 Paper</button_text>
+                <button_url>https://ieeexplore.ieee.org/document/9881609</button_url>
+            </button>
+        </buttons>
+    </work>
+    <work>
+        <title>&lt;b&gt;IDS for CAN&lt;/b&gt; (IEEE Globecom 2022)</title>
+        <desc>A Practical Intrusion Detection System for CAN Bus Security</desc>
+        <img>img/works/invalid-sequence.png</img>
+        <buttons>
+            <button>
+                <button_text>App Demo</button_text>
+                <button_url>https://youtu.be/b233he-6Clw</button_url>
+            </button>
+            <button>
+                <button_text>Source Code</button_text>
+                <button_url>https://github.com/brooke-lampe/ids_for_can</button_url>
+            </button>
+            <button>
+                <button_text>Collected Database</button_text>
+                <button_url>https://github.com/brooke-lampe/ids_for_can/tree/master/datasets</button_url>
+            </button>
+            <button>
+                <button_text>Java CLI</button_text>
+                <button_url>https://github.com/brooke-lampe/ids_for_can_helper</button_url>
+            </button>
+        </buttons>
+    </work>
+
+    <work>
+        <title>&lt;b&gt;BlockFW&lt;/b&gt; (Secureware 2022)</title>
+        <desc>Blockchain-based Rule-Sharing Firewall</desc>
+        <img>img/works/BlockFW.png</img>
+        <buttons>
+            <button>
+                <button_text>Source Code</button_text>
+                <button_url>https://1drv.ms/u/s!Atav_NLoE6M6hMt6EIMmF-cbd7n69w?e=1JKVKY</button_url>
+            </button>
+            <button>
+                <button_text>Secureware 2022 Paper</button_text>
+                <button_url>https://1drv.ms/b/s!Atav_NLoE6M6hMtFRUD5zj-C9r9v5Q?e=L3YMLe</button_url>
+            </button>
+        </buttons>
+    </work>
+
+    <work>
+        <title>&lt;b&gt;BALSAPro&lt;/b&gt; (IEEE MSN 2021)</title>
+        <desc>A Security Protocol for Bluetooth Low Energy</desc>
+        <img>img/works/BLE.jpg</img>
+        <buttons>
+            <button>
+                <button_text>Backend Server</button_text>
+                <button_url>https://github.com/mohamadmowfakhlal/rest-json-quickstartuser</button_url>
+            </button>
+            <button>
+                <button_text>GATT Client</button_text>
+                <button_url>https://github.com/mohamadmowfakhlal/BLEGattClient</button_url>
+            </button>
+            <button>
+                <button_text>IEEE MSN 2021 Paper</button_text>
+                <button_url>https://doi.org/10.1109/MSN53354.2021.00029</button_url>
+            </button>
+        </buttons>
+    </work>
+
+    <work>
+        <title>&lt;b&gt;Phone Unlock Scheme using Handwritten Graphics&lt;/b&gt; (IEEE MSN 2021)</title>
+        <desc>DTW-based Verification Algorithm for Verification</desc>
+        <img>img/works/dtw.jpg</img>
+        <buttons>
+            <button>
+                <button_text>Demo</button_text>
+                <button_url>files/dtw/demo.mp4</button_url>
+            </button>
+            <button>
+                <button_text>IEEE MSN 2021 Paper</button_text>
+                <button_url>https://doi.org/10.1109/MSN53354.2021.00078</button_url>
+            </button>
+        </buttons>    
+    </work>
+
+    <work>
+        <title>&lt;b&gt;Brainwave Datasets Collected from Commercially Available Headsets&lt;/b&gt;</title>
+        <desc>(Coming Soon)</desc>
+        <img>img/works/EEG.jpg</img>
+    </work>
+
+    <work>
+        <title>&lt;b&gt;Securing Open Banking (Nordea Bank)&lt;/b&gt; (WCMC 2021)</title>
+        <desc>Model-View-Controller Architecture and The OWASP Methogology</desc>
+        <img>img/works/deployment.png</img>
+        <buttons>
+            <button>
+                <button_text>Source Code</button_text>
+                <button_url>https://github.com/NordeaOB/examples/pull/7</button_url>
+            </button>
+            <button>
+                <button_text>WCMC 2021 Paper</button_text>
+                <button_url>https://doi.org/10.1155/2021/8028073</button_url>
+            </button>
+        </buttons>    
+    </work>
+
+    <work>
+        <title>&lt;b&gt;Protecting User Privacy in Online Settings via Supervised Learning&lt;/b&gt; (AHCI 2023)</title>
+        <desc>Privacy Protection via Supervised Learning</desc>
+        <img>img/works/privacy.jpg</img>
+        <buttons>
+            <button>
+                <button_text>Source Code</button_text>
+                <button_url>files/privacy/achi2023_source.pdf</button_url>
+            </button>
+            <button>
+                <button_text>AHCI 2023 Paper</button_text>
+                <button_url>files/privacy/achi2023.pdf</button_url>
+            </button>
+        </buttons>    
+    </work>
+
+</worksBunch>
