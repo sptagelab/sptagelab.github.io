@@ -138,7 +138,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
       </newsBunch>
       ```
 
-- <b>people.xml</b>
+- <b>people.xml</b> : The members' information for the tab: People.
   
   - <i>Data Structure</i>
     
@@ -238,9 +238,9 @@ All website data entries are contained at: <b><u>data</u></b> directory.
     
     - **\<award\>** : The data entity for award
       
-      - **\<name\>** : The title of the award.
+      - **\<name\>** : The title of the award. [Mandatory]
       
-      - **\<url\>** : The URL toward the resource of the award.
+      - **\<url\>** : The URL toward the resource of the award. [Optional]
   
   - <i>Example</i>
     
@@ -254,6 +254,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
                   <desc>Lorem ipsum dolor sit amet</desc>
               </faculty>
           </faculties>
+      
           <phds>
               <phd>
                   <name>Jane Doe</name>
@@ -264,6 +265,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
                   </projects>
               </phd>
           </phds>
+      
           <masters>
               <master>
                   <name>Hank Doe</name>
@@ -277,7 +279,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
       </people>
       ```
 
-- <b>works.xml</b>
+- <b>works.xml</b> : The work and resources information for the tab: Work and Resources.
   
   - <i>Data Structure</i>
     
@@ -292,9 +294,57 @@ All website data entries are contained at: <b><u>data</u></b> directory.
                    |- <button>
       ```
   
-  - dsa
+  - **\<workBunch\>** : The collection entity of \<work\>
+    
+    - **\<work\>** : The data entity of work and resources.
+      
+      - **\<title\>** : The title of the work. [Mandatory]
+      
+      - **\<desc\>** : The description about this work. [Mandatory]
+      
+      - **\<img\>** : The title image of this work. [Optional]
+      
+      - **\<buttons\>** : (<u>Use only if multiple buttons were given to this work : </u>) The collection entity for \<button\> [Optional]
+        
+        - **\<button\>** : The data entity of this button [Optional]
+          
+          - **\<button_text\>** : The text displayed on this button. [Mandatory]
+          
+          - **\<button_url\>** : The URL linked to this button. [Mandatory]
+  
+  - <i>Example</i>
+    
+    - ```textile
+      <workBunch>
+          <work>
+              <title>Research Work 1</title>
+              <desc>Great Research Work 1</desc>
+              <img>img/works/research1/picture.png</img>
+              <buttons>
+                  <button>
+                      <button_text>Download</button_text>
+                      <button_url>files/works1/research1.doc</button_url>
+                  </button>
+                  <button>
+                      <button_text>Source Code</button_text>
+                      <button_url>files/works1/research1.tgz</button_url>
+                  </button>
+              </buttons>
+          </work>
+      
+          <work>
+              <title>Platform Work</title>
+              <desc>EDUPlat Work</desc>
+              <img>img/works/eduplat/eduplat.png</img>
+              <button>
+                  <button_text>EDUPlat</button_text>
+                  <button_url>https://example.com</button_url>
+              </button>
+          </work>
+      </workBunch>
+      ```
 
-- <b>events.xml</b>
+- <b>events.xml</b> : The event information for the tab : Hosted Event.
   
   - <i>Data Structure</i>
     
