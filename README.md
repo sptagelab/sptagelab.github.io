@@ -84,21 +84,31 @@ All website data entries are contained at: <b><u>data</u></b> directory.
     
     - For more information about HTML entities, take a look at this [table](https://www.freeformatter.com/html-entities.html)
 
+- <b>Latest record should be on the top.</b> DDB does not have any capabilities on sorting.
+
 
 
 #### About Data Entries
 
-- intro.xml
+- <b>intro.xml</b> : The introductory information for the page tab: Home. (<b>Only 1 record allowed!</b> Adding more records will not take effect.)
+  
+  - **\<intro\>** : Attribute for storing the lab's introductory information. [Mandatory]
 
-- news.xml
+- <b>news.xml</b> : News information for the page tab: Home.
+  
+  - **\<date\>** : The date and time when the piece of news was published. It must follow the format: <b>dd mm, YYYY HH:MM:SS</b> [Mandatory]
+  
+  - **\<content\>** : Information you wish to display. [Mandatory]
 
-- people.xml
+- <b>people.xml</b>
+  
+  - 
 
-- works.xml
+- <b>works.xml</b>
 
-- events.xml
+- <b>events.xml</b>
 
-- footer.xml
+- <b>footer.xml</b>
 
  
 
