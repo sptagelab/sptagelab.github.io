@@ -44,11 +44,11 @@ All website data entries are contained at: <b><u>data</u></b> directory.
   
   - Example:
     
-    - ```text```
+    - ```textile
       What you want: <b>Emphasize this</b>
       ```
     
-    - ```text```
+    - ```textile
       What you should do: &lt;b&gt;Emphasize this&lt;/b&gt;
       ```
   
@@ -100,7 +100,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
 
 - footer.xml
 
-## 
+ 
 
 ## Notes
 
