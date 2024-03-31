@@ -45,7 +45,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
       ```
     
     - ```textile
-      What you should do: <b>Emphasize this</b>
+      What you should do: &lt;b&gt;Emphasize this&lt;/b&gt;
       ```
   
   - Commonly used HTML entities:
