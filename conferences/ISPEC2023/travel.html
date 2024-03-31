@@ -1,0 +1,668 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="description" content="ISPEC 2023 - The 18th International Conference on Information Security Practice and Experience">
+    <meta name="HandheldFriendly" content="true">
+
+    <link rel="stylesheet" href="css/theme.css">
+
+    <title>ISPEC 2023 - The 18th International Conference on Information Security Practice and Experience</title>
+
+    <!-- Specialized Font Configuration -->
+    <style>
+        /* inter-300 - latin */
+        @font-face {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 300;
+          font-display: swap;
+          src: local(''),
+            url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+            /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('./fonts/inter-v12-latin-300.woff') format('woff');
+          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        }
+    
+        @font-face {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-display: swap;
+          src: local(''),
+            url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+            /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('./fonts/inter-v12-latin-500.woff') format('woff');
+          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        }
+    
+        @font-face {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-display: swap;
+          src: local(''),
+            url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+            /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('./fonts/inter-v12-latin-700.woff') format('woff');
+          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+    <!-- Navigation Bar -->
+    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light" tabindex="0">
+        <div class="container">
+
+            <!-- Navigation Logo Section -->
+            <a class="navbar-brand pe-4 fs-4" href="index.html">
+                <img src="img/logo/logo.webp" height="32" alt="ISPEC 2023" style="-webkit-filter: drop-shadow(5px 5px 8px rgba(200, 200, 200, 1)); filter: drop-shadow(5px 5px 8px rgba(200, 200, 200, 1));">
+            </a>
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Item List -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Call For</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="call-for-paper.html">Call for Paper</a></li>
+                            <li><a class="dropdown-item" href="critical-dates.html">Important Dates</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active fw-shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Attendance</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="travel.html">Conference Venue</a></li>
+                            <li><a class="dropdown-item" href="travel.html#travelguide">Travel Guide</a></li>
+                            <li><a class="dropdown-item" href="https://nopkirouter1.compute.dtu.dk/conference/ispec2023/">ISPEC Inside</a></li>
+                            <li><a class="dropdown-item" href="https://link.springer.com/book/10.1007/978-981-99-7032-2">Conference Proceedings</a></li>
+                        </ul>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link fw-shadow" href="keynote.html" aria-label="Keynote">
+                            Keynote
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-shadow" href="program.html" aria-label="Program">
+                            Program
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Organization</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="orgs-general.html">Organizing Committee</a></li>
+                            <li><a class="dropdown-item" href="orgs-pc.html">Program Committee</a></li>
+                        </ul>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link fw-shadow" href="registration.html" aria-label="Registration">
+                            Registration
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Brochure Download Link -->
+                <a href="files/brochure.pdf" data-splitbee-event="Click Download" aria-label="Download Brochure" class="link-dark pb-1 link-fancy me-2 fw-shadow" target="_blank">
+                    Download Brochure
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download ms-1" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class = "py-vh-5 w-100 overflow-hidden">
+            <div class = "container">
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <h1 class = "display-1 fw-bold border-bottom border-dark pb-4 fw-shadow">
+                            Attendance
+                        </h1>
+                        <h5 class="fw-shadow">Last Update : [9 August, 2023]</h5>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-lg-6 py-vh-3">
+                        <div class="row gx-5 d-flex">
+                            <div class="col-md-11">
+                                <div class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end rounded-3" data-aos="fade-right"
+                                    style="background-image: url(img/travel/front/dtu1.webp);--bs-aspect-ratio: 50%;">
+                                </div>
+                            </div>
+                            <div class="col-md-5 offset-md-1">
+                                <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end rounded-3" data-aos="fade-up"
+                                    style="background-image: url(img/travel/front/dtu2.webp);">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center rounded-3" data-aos="fade-left"
+                                    style="background-image: url(img/travel/front/dtu3.webp);--bs-aspect-ratio: 150%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 py-vh-3" data-aos="fade-down">
+                        <h2 class="display-6 fw-shadow">
+                            DTU Mødecenter
+                        </h2>
+                        <p>
+                            <a href="https://goo.gl/maps/2wQjZxoBaUWgpVCF8" class="link-fancy-red">
+                                <svg fill="#900000" height="16px" width="16px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.999 511.999" xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path d="M255.999,105.745c-27.617,0-50.085,22.468-50.085,50.085s22.468,50.085,50.085,50.085
+                                                c27.617,0,50.085-22.468,50.085-50.085S283.616,105.745,255.999,105.745z M255.999,172.525c-9.206,0-16.695-7.489-16.695-16.695
+                                                s7.489-16.695,16.695-16.695s16.695,7.489,16.695,16.695C272.694,165.035,265.205,172.525,255.999,172.525z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M511.131,451.06l-66.78-200.339c-2.273-6.817-8.652-11.416-15.838-11.416h-87.036
+                                                c14.699-23.209,31.386-44.77,31.386-83.475c0-64.439-52.425-116.865-116.865-116.865S139.135,91.391,139.135,155.83
+                                                c0,38.935,16.89,60.626,31.638,83.475H83.485c-7.187,0-13.565,4.599-15.838,11.416L0.867,451.06
+                                                c-3.597,10.795,4.446,21.974,15.838,21.974h478.588C506.672,473.033,514.733,461.867,511.131,451.06z M255.999,72.355
+                                                c46.028,0,83.475,37.447,83.475,83.475c0,15.854-4.459,31.274-12.893,44.591l-69.912,110.383l-70.862-109.779
+                                                c-8.689-13.457-13.281-29.086-13.281-45.195C172.524,109.801,209.971,72.355,255.999,72.355z M39.868,439.645v-0.001
+                                                l55.65-166.949h96.808l50.45,78.156c6.607,10.235,21.61,10.176,28.131-0.121l49.423-78.033h96.151l55.65,166.949H39.868z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                                Anker Engelunds Vej 1, 2800 Kgs. Lyngby
+                            </a>
+                        </p>
+                            <a href="tel:+4545252525" class="link-fancy-red">
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 6.5C3 14.5081 9.49187 21 17.5 21C18.166 21 18.8216 20.9551 19.4637 20.8682C20.3747 20.7448 21 19.9292 21 19.01V16.4415C21 15.5807 20.4491 14.8164 19.6325 14.5442L16.4841 13.4947C15.6836 13.2279 14.8252 13.699 14.6206 14.5177C14.3475 15.6102 12.987 15.987 12.1907 15.1907L8.80926 11.8093C8.01301 11.013 8.38984 9.65254 9.48229 9.37943C10.301 9.17476 10.7721 8.31644 10.5053 7.51586L9.45585 4.36754C9.18362 3.55086 8.41934 3 7.55848 3H4.99004C4.0708 3 3.25518 3.62533 3.13185 4.53627C3.0449 5.17845 3 5.83398 3 6.5Z" stroke="#900000" stroke-width="2" stroke-linejoin="round"/>
+                                    </svg>
+                                    +45 45 25 25 25 
+                            </a>
+                        <p>
+
+                        </p>
+                        <h3 class="py-5 border-top border-dark fw-lighter fw-shadow" data-aos="fade-left">
+                            DTU's meeting center is located at DTU Building 101, whereas in the same building as the DTU's Administration Office.
+                        </h3>
+                        <p data-aos="fade-left" data-aos-delay="200">
+                            Founded in 1829 with the mission of creating value for the benefit of society, DTU is an international elite technical university where education, scientific advice, and innovation rest on a solid foundation of world-class research.
+                            <br>
+                            The Meeting room is situated on the Anker Engelunds Vej's side, where you can immediately reach the entrance through the gate at 101A or 101B.
+                        </p>
+                        <p>
+                            <a href="https://my.matterport.com/show/?m=yc59ncPVs2w" class="link-fancy-red" data-aos="fade-left" data-aos-delay="400">
+                                <svg fill="#900000" width="16px" height="16px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                    <title>magnifier</title>
+                                    <path d="M29.156 29.961l-0.709 0.709c-0.785 0.784-2.055 0.784-2.838 0l-5.676-5.674c-0.656-0.658-0.729-1.644-0.281-2.412l-3.104-3.102c-1.669 1.238-3.728 1.979-5.965 1.979-5.54 0-10.031-4.491-10.031-10.031s4.491-10.032 10.031-10.032c5.541 0 10.031 4.491 10.031 10.032 0 2.579-0.98 4.923-2.58 6.7l3.035 3.035c0.768-0.447 1.754-0.375 2.41 0.283l5.676 5.674c0.784 0.785 0.784 2.056 0.001 2.839zM18.088 11.389c0-4.155-3.369-7.523-7.524-7.523s-7.524 3.367-7.524 7.523 3.368 7.523 7.523 7.523 7.525-3.368 7.525-7.523z"></path>
+                                    </svg>
+                                Virtual Tour
+                            </a>
+                            <br><br>
+                            <a href="https://www.dtu.dk/english/-/media/DTU-endk/About-DTU/CAMPUSES/DTU-Meeting-Centre-folder.ashx" class="link-fancy-red" data-aos="fade-left" data-aos-delay="400">
+                                <svg fill="#900000" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 13h4v1H9zm13 7h-3v3H5.75A3.754 3.754 0 0 1 2 19.25V3.5C2 2.051 3.437 1 5.417 1H22zM18 6H5.416A4.175 4.175 0 0 1 3 5.318V19.25A2.753 2.753 0 0 0 5.75 22H18zm3-4H5.416C4.04 2 3 2.645 3 3.5S4.04 5 5.417 5H19v14h2zm-6 8H7v1h8z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+                                Room Brochure
+                            </a>
+                            <br><br>
+                            <a href="https://www.dtu.dk/english/about" class="link-fancy-red" data-aos="fade-left" data-aos-delay="600">
+                                <svg fill="#900000" width="16px" height="16px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                    <title>globe1</title>
+                                    <path d="M15.5 2c-8.008 0-14.5 6.492-14.5 14.5s6.492 14.5 14.5 14.5 14.5-6.492 14.5-14.5-6.492-14.5-14.5-14.5zM10.752 3.854c-0.714 1.289-1.559 3.295-2.113 6.131h-4.983c1.551-2.799 4.062-4.993 7.096-6.131zM3.154 10.987h5.316c-0.234 1.468-0.391 3.128-0.415 5.012h-6.060c0.067-1.781 0.468-3.474 1.159-5.012zM1.988 17.001h6.072c0.023 1.893 0.188 3.541 0.422 5.012h-5.29c-0.694-1.543-1.138-3.224-1.204-5.012zM3.67 23.015h4.977c0.559 2.864 1.416 4.867 2.134 6.142-3.046-1.134-5.557-3.336-7.111-6.142zM15.062 30.009c-1.052-0.033-2.067-0.199-3.045-0.46-0.755-1.236-1.736-3.363-2.356-6.534h5.401v6.994zM15.062 22.013h-5.578c-0.234-1.469-0.396-3.119-0.421-5.012h5.998v5.012zM15.062 15.999h-6.004c0.025-1.886 0.183-3.543 0.417-5.012h5.587v5.012zM15.062 9.985h-5.422c0.615-3.148 1.591-5.266 2.344-6.525 0.987-0.266 2.015-0.435 3.078-0.47v6.995zM29.003 15.999h-5.933c-0.025-1.884-0.182-3.544-0.416-5.012h5.172c0.693 1.541 1.108 3.23 1.177 5.012zM27.322 9.985h-4.837c-0.549-2.806-1.382-4.8-2.091-6.090 2.967 1.154 5.402 3.335 6.928 6.090zM16.063 2.989c1.067 0.047 2.102 0.216 3.092 0.493 0.751 1.263 1.72 3.372 2.331 6.503h-5.423v-6.996zM16.063 10.987h5.587c0.234 1.469 0.392 3.126 0.417 5.012h-6.004v-5.012zM16.063 17.001h5.998c-0.023 1.893-0.187 3.543-0.421 5.012h-5.577v-5.012zM16.063 29.991v-6.977h5.402c-0.617 3.152-1.591 5.271-2.343 6.512-0.978 0.272-2.005 0.418-3.059 0.465zM20.367 29.114c0.714-1.276 1.56-3.266 2.112-6.1h4.835c-1.522 2.766-3.967 4.95-6.947 6.1zM27.795 22.013h-5.152c0.234-1.471 0.398-3.119 0.423-5.012h5.927c-0.067 1.787-0.508 3.468-1.198 5.012z"></path>
+                                    </svg>
+                                About DTU
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- DTU Travel Information-->
+        <div class="py-vh-2 w-100 overflow-hidden">
+            <div class = "container">
+                <div class = "row d-flex justify-content-end">
+                    <div class = "col-lg-8" data-aos="fade-down">
+                        <div class = "display-6 fw-shadow">
+                            How to reach DTU
+                        </div>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center py-vh-2">
+                    <div class = "col-12 col-lg-10 col-xl-8 bg-light border-1 shadow-sm rounded-3" data-aos="fade-up">
+                        <div class = "row d-flex align-items-center">
+                            <div class = "col-12 col-md-3">
+                                <svg width="96px" height="96px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path opacity="0.4" d="M21.0802 8.58003V15.42C21.0802 16.54 20.4802 17.58 19.5102 18.15L13.5702 21.58C12.6002 22.14 11.4002 22.14 10.4202 21.58L4.48016 18.15C3.51016 17.59 2.91016 16.55 2.91016 15.42V8.58003C2.91016 7.46003 3.51016 6.41999 4.48016 5.84999L10.4202 2.42C11.3902 1.86 12.5902 1.86 13.5702 2.42L19.5102 5.84999C20.4802 6.41999 21.0802 7.45003 21.0802 8.58003Z" fill="#292D32"/>
+                                    <path d="M12 13.75C11.59 13.75 11.25 13.41 11.25 13V7.75C11.25 7.34 11.59 7 12 7C12.41 7 12.75 7.34 12.75 7.75V13C12.75 13.41 12.41 13.75 12 13.75Z" fill="#292D32"/>
+                                    <path d="M12 17.2499C11.87 17.2499 11.74 17.2198 11.62 17.1698C11.49 17.1198 11.39 17.0499 11.29 16.9599C11.2 16.8599 11.13 16.7499 11.07 16.6299C11.02 16.5099 11 16.3799 11 16.2499C11 15.9899 11.1 15.7298 11.29 15.5398C11.39 15.4498 11.49 15.3799 11.62 15.3299C11.99 15.1699 12.43 15.2598 12.71 15.5398C12.8 15.6398 12.87 15.7399 12.92 15.8699C12.97 15.9899 13 16.1199 13 16.2499C13 16.3799 12.97 16.5099 12.92 16.6299C12.87 16.7499 12.8 16.8599 12.71 16.9599C12.52 17.1499 12.27 17.2499 12 17.2499Z" fill="#292D32"/>
+                                    </svg>
+                            </div>
+                            <div class = "col-12 col-md-9 py-vh-2">
+                                <p class = lead>
+                                    Due to the construction of Hovedstadens Letbane (Greater Copenhagen Light Rail) around DTU Lyngby Campus, please be aware that the traffic information you are reading here may change in the future accordingly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center py-vh-1">
+                    <div class = "col-12 col-lg-10 col-xl-8 bg-light border-1 shadow-sm rounded-3" data-aos="fade-up">
+                        <div class = "row d-flex align-items-center">
+                            <div class = "col-12 col-md-3">
+                                <svg fill="#000000" width="96px" height="96px" viewBox="0 0 32 32" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                      <style>
+                                        .cls-1 {
+                                          fill: none;
+                                        }
+                                      </style>
+                                    </defs>
+                                    <path d="M29.1257,7.125a1.125,1.125,0,1,1,0-2.25h.875V2h-12V4.875h.875a1.125,1.125,0,0,1,0,2.25h-.875V10h12V7.125Z" transform="translate(0 0)"/>
+                                    <path d="M22.0007,13v3h-16V10h9V8H6.185A2.9948,2.9948,0,0,1,9.0007,6h6V4h-6a5.0057,5.0057,0,0,0-5,5V21a4.99,4.99,0,0,0,3.582,4.77L5.77,30H7.9458L9.66,26h8.6812l1.7143,4h2.1758l-1.8127-4.23A4.99,4.99,0,0,0,24.0007,21V13Zm0,7h-3v2h2.8157a2.9948,2.9948,0,0,1-2.8157,2h-10A2.9948,2.9948,0,0,1,6.185,22H9.0007V20h-3V18h16Z" transform="translate(0 0)"/>
+                                    <rect id="_Transparent_Rectangle_" data-name="&lt;Transparent Rectangle&gt;" class="cls-1" width="32" height="32"/>
+                                  </svg>
+                            </div>
+                            <div class = "col-12 col-md-9 py-vh-1">
+                                <p class = lead>
+                                    For a smoother public transportation experience, we suggest you to <b> <a href="travel-transport.html#rejsekort">grab a travel card (Rejsekort)</a></b> or <b><a href="travel-transport.html#dotApps">download DOT Billetter App.</a></b>
+                                </p>
+                                <a href="travel-transport.html" class="link-fancy-red lead">
+                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#be2b31" d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+                                    Read More
+                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center py-5">
+                    <div class = "col-12 col-lg-5">
+                        <center>
+                            <br>
+                            <h4>From the Airport</h4>
+                        </center>
+                        <ul>
+                            <li>
+                                <p class = "lead fw-bold">
+                                    Through Helsingørmotorvejen<br> (The Helsingør Highway) 
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class = "lead">
+                                            Taking Metro - <b>M2</b> (To: Vanløse)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Transfer at <b>[Nørreport St.]</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Taking Bus - <b>150S</b> (To: Kokkedal), <br>or <b>15E</b> (To: Søhuset Forskerparken)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Getting off at <b>[Rævehøjvej, DTU]</b>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p class = "lead fw-bold">
+                                    Through Local S-Tog (S-Train)
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class = "lead">
+                                            Taking Metro - <b>M2</b> (To: Vanløse)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Transfer at <b>[Nørreport St.]</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Taking S-Train - <b>A</b> (To: Hillerød), <br>or <b>E</b> (To: Holte)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Transfer at <b>[Lyngby St.]</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Taking Bus -  <b>300S</b> (To: DTU or Gl. Holte)<br>
+                                            or <b>180</b> (To: DTU)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Getting off at <b>[Rævehøjvej, DTU]</b> (300S),<br>
+                                            or <b>[Lyngby Handelsskole U/Nord]</b> (180)
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class = "col-12 col-lg-5">
+                        <center>
+                            <br>
+                            <h4>From downtown Copenhagen</h4>
+                        </center>
+                        <ul>
+                            <li>
+                                <p class = "lead fw-bold">
+                                    You stay near Nørreport or Kongens Nytrov
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class = "lead">
+                                            Goto <b>[Nørreport St.]</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Taking Bus - <b>150S</b> (To: Kokkedal), <br>or <b>15E</b> (To: Søhuset Forskerparken)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Getting off at <b>[Rævehøjvej, DTU]</b>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p class = "lead fw-bold">
+                                    You stay near Copenhagen Central Station
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p class = "lead">
+                                            Taking S-Train - <b>A</b> (To: Hillerød), <br>or <b>E</b> (To: Holte)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Transfer at <b>[Lyngby St.]</b>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Taking Bus -  <b>300S</b> (To: DTU or Gl. Holte)<br>
+                                            or <b>180</b> (To: DTU)
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class = "lead">
+                                            Getting off at <b>[Rævehøjvej, DTU]</b> (300S),<br>
+                                            or <b>[Lyngby Handelsskole U/Nord]</b> (180)
+                                        </p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class = "row d-flex justify-content-center py-vh-2">
+                    <div class = "col-12 col-lg-10 col-xl-8 bg-light shadow-sm border-1 rounded-3" data-aos="fade-down">
+                        <div class = "row d-flex align-items-center">
+                            <div class = "col-12 col-md-3">
+                                <svg width="96px" height="96px" viewBox="0 0 60.601004 60.601004" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                    <defs/>
+                                    <metadata>
+                                      <rdf:RDF>
+                                        <cc:Work rdf:about="">
+                                          <dc:format>image/svg+xml</dc:format>
+                                          <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                                          <dc:title>タクシー／タクシーのりば; Taxi/Taxi stop</dc:title>
+                                          <dc:source>http://www.ecomo.or.jp/barrierfree/pictogram/data/zukigo_panfu_jis110.pdf</dc:source>
+                                        </cc:Work>
+                                      </rdf:RDF>
+                                    </metadata>
+                                    <path d="m 7.7861277,56.033003 c -1.7775,0 -3.2175,-1.44125 -3.2175,-3.2175 l 0,-45.0312503 c 0,-1.77625 1.44,-3.21625 3.2175,-3.21625 l 45.0300003,0 c 1.77625,0 3.21625,1.44 3.21625,3.21625 l 0,45.0312503 c 0,1.77625 -1.44,3.2175 -3.21625,3.2175 l -45.0300003,0 z" style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.60625005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
+                                    <path d="m 40.11238,43.280502 c -1.48625,0 -2.69125,-1.20375 -2.69125,-2.69125 0,-1.48625 1.205,-2.69 2.69125,-2.69 1.4875,0 2.69125,1.20375 2.69125,2.69 0,1.4875 -1.20375,2.69125 -2.69125,2.69125 z m -19.6325,0 c -1.48625,0 -2.69125,-1.20375 -2.69125,-2.69125 0,-1.48625 1.205,-2.69 2.69125,-2.69 1.48625,0 2.69,1.20375 2.69,2.69 0,1.4875 -1.20375,2.69125 -2.69,2.69125 m 0.405,-13.93625 c 3.10625,-0.32375 6.27,-0.4875 9.41125,-0.4875 3.1425,0 6.30875,0.16375 9.415,0.4875 l 1.81625,6.32375 -22.46875,0 1.82625,-6.32375 m 22.4,6.32375 -2.2625,-7.88 c -1.79375,-0.20875 -3.6025,-0.3675 -5.425,-0.4725 l -0.945,-3.51375 -8.7125,0 -0.945,3.51375 c -1.8225,0.105 -3.63125,0.26375 -5.42375,0.4725 l -2.26375,7.88 c -1.3575,0 -2.45,1.1 -2.45,2.45875 l -0.0012,9.15875 2.4325,-0.0013 -0.0013,3.9125 c 0.59625,0.21625 1.22375,0.33375 1.89375,0.33375 0.65875,0 1.305,-0.115 1.8925,-0.32375 l 0,-3.92375 18.445,-0.0025 -0.0012,3.91625 c 0.595,0.21625 1.2225,0.33375 1.8925,0.33375 0.65875,0 1.30625,-0.115 1.8925,-0.32375 l 0,-3.92625 2.4425,-0.0025 0,-9.15125 c 0,-1.35875 -1.1025,-2.45875 -2.46,-2.45875" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+                                    <path d="m 11.723628,10.248 -2.9275003,0 0,-2.3500003 9.0200003,0 0,2.3500003 -2.9275,0 0,9.53 -3.165,0 0,-9.53" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+                                    <path d="m 22.972379,14.995501 1.53125,-4.6475 0.03375,0 1.4125,4.6475 -2.9775,0 z m 3.505,-7.0975003 -3.88,0 -4.51,11.8800003 3.21625,0 0.93625,-2.53625 4.46,0 0.88375,2.53625 3.4725,0 -4.57875,-11.8800003" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+                                    <path d="m 35.71738,13.530501 -3.43875,-5.6325003 3.69375,0 1.99125,3.9150003 2.0425,-3.9150003 3.47125,0 -3.47125,5.6325003 3.81125,6.2475 -3.7775,0 -2.2975,-4.375 -2.28125,4.375 -3.59,0 3.84625,-6.2475" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+                                    <path d="m 47.119881,7.8979997 0,11.8800013 3.16625,0 0,-11.8800013 -3.16625,0 z" style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+                                  </svg>
+                            </div>
+                            <div class = "col-12 col-md-9 py-vh-1">
+                                <p class = lead>
+                                    If you are not fancy of public transportation and would like to acquire a Taxi, please have a look here.
+                                </p>
+                                 <a href="travel-transport.html#taxi" class="link-fancy-red lead">
+                                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#be2b31" d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+                                    Read More
+                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Travel Guide Section -->
+        <div class="py-vh-5 w-100 overflow-hidden" id="travelguide">
+            <div class = "container">
+                <div class = "row d-flex justify-content-end">
+                    <div class = "col-lg-8" data-aos="fade-down">
+                        <div class = "display-6 fw-shadow">
+                            Your Travel Guide
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex">
+                    <div class="col-md-6 col-lg-4 py-vh-2" data-aos="fade-up" data-aos-delay="200">
+                        <span class="h5 fw-lighter">01.</span>
+                        <h3 class="py-5 border-top border-dark">Enter and Depart</h3>
+                        <p class="lead">Entry Regulation of Denmark, and Regarding of COVID-19 related information.</p>
+                        <a href="travel-entry.html" class="link-fancy-red lead">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#be2b31" d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+                           Learn More
+                        </a>
+                    </div>
+            
+                    <div class="col-md-6 col-lg-4 py-vh-2" data-aos="fade-up" data-aos-delay="400">
+                        <span class="h5 fw-lighter">02.</span>
+                        <h3 class="py-5 border-top border-dark">Transportation</h3>
+                        <p class="lead">Guidance of using Public Transportation in Denmark</p>
+                        <a href="travel-transport.html" class="link-fancy-red lead">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#be2b31" d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+                            Learn More
+                         </a>
+                    </div>
+            
+                    <div class="col-md-6 col-lg-4 py-vh-2" data-aos="fade-up" data-aos-delay="600">
+                        <span class="h5 fw-lighter">03.</span>
+                        <h3 class="py-5 border-top border-dark">Accommondation</h3>
+                        <p class="lead">Accommodation Information for your staying at Copenhagen</p>
+                        <a href="travel-hotel.html" class="link-fancy-red lead">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#be2b31" d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+                            Learn More
+                         </a>
+                    </div>
+                </div>
+                <div class="row d-flex">
+                    <div class="col-md-6 col-lg-4 py-vh-2" data-aos="fade-up" data-aos-delay="200">
+                        <span class="h5 fw-lighter">04.</span>
+                        <h3 class="py-5 border-top border-dark">Communication</h3>
+                        <p class="lead">Telecommunication information in Denmark</p>
+                        <a href="travel-telecom.html" class="link-fancy-red lead">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path fill="#be2b31" d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/></svg>
+                           Learn More
+                        </a>
+                    </div>
+            
+                    <div class="col-md-6 col-lg-4 py-vh-2" data-aos="fade-up" data-aos-delay="400">
+                        <span class="h5 fw-lighter">[Additional Information]</span>
+                        <h3 class="py-5 border-top border-dark">VisitDenmark</h3>
+                        <p class="lead">Your Denmark Tour Guide</p>
+                        <a href="https://www.visitdenmark.com/" class="link-fancy-red lead">
+                            <svg fill="#900000" width="16px" height="16px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <title>globe1</title>
+                                <path d="M15.5 2c-8.008 0-14.5 6.492-14.5 14.5s6.492 14.5 14.5 14.5 14.5-6.492 14.5-14.5-6.492-14.5-14.5-14.5zM10.752 3.854c-0.714 1.289-1.559 3.295-2.113 6.131h-4.983c1.551-2.799 4.062-4.993 7.096-6.131zM3.154 10.987h5.316c-0.234 1.468-0.391 3.128-0.415 5.012h-6.060c0.067-1.781 0.468-3.474 1.159-5.012zM1.988 17.001h6.072c0.023 1.893 0.188 3.541 0.422 5.012h-5.29c-0.694-1.543-1.138-3.224-1.204-5.012zM3.67 23.015h4.977c0.559 2.864 1.416 4.867 2.134 6.142-3.046-1.134-5.557-3.336-7.111-6.142zM15.062 30.009c-1.052-0.033-2.067-0.199-3.045-0.46-0.755-1.236-1.736-3.363-2.356-6.534h5.401v6.994zM15.062 22.013h-5.578c-0.234-1.469-0.396-3.119-0.421-5.012h5.998v5.012zM15.062 15.999h-6.004c0.025-1.886 0.183-3.543 0.417-5.012h5.587v5.012zM15.062 9.985h-5.422c0.615-3.148 1.591-5.266 2.344-6.525 0.987-0.266 2.015-0.435 3.078-0.47v6.995zM29.003 15.999h-5.933c-0.025-1.884-0.182-3.544-0.416-5.012h5.172c0.693 1.541 1.108 3.23 1.177 5.012zM27.322 9.985h-4.837c-0.549-2.806-1.382-4.8-2.091-6.090 2.967 1.154 5.402 3.335 6.928 6.090zM16.063 2.989c1.067 0.047 2.102 0.216 3.092 0.493 0.751 1.263 1.72 3.372 2.331 6.503h-5.423v-6.996zM16.063 10.987h5.587c0.234 1.469 0.392 3.126 0.417 5.012h-6.004v-5.012zM16.063 17.001h5.998c-0.023 1.893-0.187 3.543-0.421 5.012h-5.577v-5.012zM16.063 29.991v-6.977h5.402c-0.617 3.152-1.591 5.271-2.343 6.512-0.978 0.272-2.005 0.418-3.059 0.465zM20.367 29.114c0.714-1.276 1.56-3.266 2.112-6.1h4.835c-1.522 2.766-3.967 4.95-6.947 6.1zM27.795 22.013h-5.152c0.234-1.471 0.398-3.119 0.423-5.012h5.927c-0.067 1.787-0.508 3.468-1.198 5.012z"></path>
+                            </svg>
+                            Visit Webiste
+                         </a>
+                    </div>
+            
+                    <div class="col-md-6 col-lg-4 py-vh-2" data-aos="fade-up" data-aos-delay="600">
+                        <span class="h5 fw-lighter">[Additional Information]</span>
+                        <h3 class="py-5 border-top border-dark">VisitCopenhagen</h3>
+                        <p class="lead">The official guide to Copenhagen</p>
+                        <a href="https://www.visitcopenhagen.com/" class="link-fancy-red lead">
+                            <svg fill="#900000" width="16px" height="16px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <title>globe1</title>
+                                <path d="M15.5 2c-8.008 0-14.5 6.492-14.5 14.5s6.492 14.5 14.5 14.5 14.5-6.492 14.5-14.5-6.492-14.5-14.5-14.5zM10.752 3.854c-0.714 1.289-1.559 3.295-2.113 6.131h-4.983c1.551-2.799 4.062-4.993 7.096-6.131zM3.154 10.987h5.316c-0.234 1.468-0.391 3.128-0.415 5.012h-6.060c0.067-1.781 0.468-3.474 1.159-5.012zM1.988 17.001h6.072c0.023 1.893 0.188 3.541 0.422 5.012h-5.29c-0.694-1.543-1.138-3.224-1.204-5.012zM3.67 23.015h4.977c0.559 2.864 1.416 4.867 2.134 6.142-3.046-1.134-5.557-3.336-7.111-6.142zM15.062 30.009c-1.052-0.033-2.067-0.199-3.045-0.46-0.755-1.236-1.736-3.363-2.356-6.534h5.401v6.994zM15.062 22.013h-5.578c-0.234-1.469-0.396-3.119-0.421-5.012h5.998v5.012zM15.062 15.999h-6.004c0.025-1.886 0.183-3.543 0.417-5.012h5.587v5.012zM15.062 9.985h-5.422c0.615-3.148 1.591-5.266 2.344-6.525 0.987-0.266 2.015-0.435 3.078-0.47v6.995zM29.003 15.999h-5.933c-0.025-1.884-0.182-3.544-0.416-5.012h5.172c0.693 1.541 1.108 3.23 1.177 5.012zM27.322 9.985h-4.837c-0.549-2.806-1.382-4.8-2.091-6.090 2.967 1.154 5.402 3.335 6.928 6.090zM16.063 2.989c1.067 0.047 2.102 0.216 3.092 0.493 0.751 1.263 1.72 3.372 2.331 6.503h-5.423v-6.996zM16.063 10.987h5.587c0.234 1.469 0.392 3.126 0.417 5.012h-6.004v-5.012zM16.063 17.001h5.998c-0.023 1.893-0.187 3.543-0.421 5.012h-5.577v-5.012zM16.063 29.991v-6.977h5.402c-0.617 3.152-1.591 5.271-2.343 6.512-0.978 0.272-2.005 0.418-3.059 0.465zM20.367 29.114c0.714-1.276 1.56-3.266 2.112-6.1h4.835c-1.522 2.766-3.967 4.95-6.947 6.1zM27.795 22.013h-5.152c0.234-1.471 0.398-3.119 0.423-5.012h5.927c-0.067 1.787-0.508 3.468-1.198 5.012z"></path>
+                            </svg>
+                            Visit Website
+                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="bg-dtu-dark">
+        <div class="container small border-top  ">
+            <div class="row d-flex justify-content-between">
+                <div class="col-12 col-md-6 p-5">
+                    <table>
+                        <tr>
+                            <td valign="top">
+                                <a href="https://www.dtu.dk/english/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="currentColor" class="bi bi-layers-half" viewbox="0 0 75 75">
+                                        <g
+                                            inkscape:label="Layer 1"
+                                            inkscape:groupmode="layer"
+                                            id="layer1"
+                                            transform="translate(0,-981.52969)">
+                                            <g
+                                                id="g4276"
+                                                transform="translate(-321.43694,498.87344)">
+                                                <g id="g4284">
+                                                    <path
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 324.4375,482.65625 L 324.4375,482.6875 L 324.40625,482.6875 L 324.375,482.6875 L 324.34375,482.6875 L 324.3125,482.71875 L 324.28125,482.71875 L 324.25,482.75 L 324.21875,482.75 L 324.21875,482.78125 L 324.1875,482.78125 L 324.15625,482.8125 C 324.06839,482.89999 324.03125,483.02375 324.03125,483.21875 L 324.03125,507.84375 C 324.03124,508.03501 324.06838,508.16625 324.15625,508.25 C 324.23926,508.33252 324.37213,508.375 324.5625,508.375 L 331,508.375 C 333.50485,508.375 335.04625,507.82624 335.96875,506.625 C 337.33624,504.98876 337.375,502.32873 337.375,498.28125 L 337.375,492.75 C 337.37501,488.69752 337.33624,486.07249 335.96875,484.4375 C 335.04625,483.23627 333.50486,482.65625 331,482.65625 L 324.5625,482.65625 L 324.53125,482.65625 L 324.5,482.65625 L 324.46875,482.65625 L 324.4375,482.65625 z M 328.125,485.65625 L 330.375,485.65625 C 331.38074,485.65626 331.97363,485.81875 332.4375,486.375 C 333.15526,487.235 333.21875,488.97377 333.21875,492.46875 L 333.21875,498.5625 C 333.21876,502.05373 333.15525,503.79626 332.4375,504.65625 C 331.97364,505.21249 331.38074,505.375 330.375,505.375 L 328.125,505.375 L 328.125,485.65625 z"
+                                                        id="path4229" />
+                                                    <path
+                                                        id="path4233"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 367.26165,483.20544 L 367.26165,483.18794 L 367.26165,483.17044 L 367.2604,483.15294 L 367.25915,483.13669 L 367.2579,483.12044 L 367.2554,483.10419 L 367.25415,483.08794 L 367.25165,483.07294 L 367.24915,483.05919 L 367.2454,483.04419 L 367.2429,483.03044 L 367.23915,483.01669 L 367.2354,483.00294 L 367.2304,482.99044 L 367.22665,482.97794 L 367.22165,482.96544 L 367.21665,482.95294 L 367.21165,482.94169 L 367.20665,482.93044 L 367.2004,482.91919 L 367.19415,482.90919 L 367.1879,482.89794 L 367.18165,482.88794 L 367.1754,482.87794 L 367.16915,482.86794 L 367.16165,482.85794 L 367.14665,482.84044 L 367.13165,482.82294 L 367.1154,482.80544 C 367.0329,482.72294 366.9154,482.66419 366.7204,482.66419 L 363.71167,482.66419 C 363.51667,482.66419 363.39917,482.72294 363.31667,482.80544 C 363.22917,482.89294 363.17042,483.01044 363.17042,483.20544 L 363.17042,501.39407 C 363.17042,503.29406 363.02792,504.42155 362.41293,505.1003 C 361.99293,505.55905 361.39793,505.78405 360.56794,505.78405 C 359.82044,505.78405 359.2492,505.57405 358.8142,505.0953 C 358.2292,504.45155 358.04796,503.36156 358.04796,501.39407 L 358.04796,483.20544 C 358.04796,483.01044 357.99421,482.89294 357.90671,482.80544 C 357.82296,482.72294 357.70671,482.66419 357.51046,482.66419 L 354.49798,482.66419 C 354.30298,482.66419 354.19048,482.72294 354.10298,482.80544 C 354.01548,482.89294 353.96173,483.01044 353.96173,483.20544 L 353.96173,501.39907 C 353.96173,504.05031 354.31798,505.7103 355.37172,506.86779 C 356.46547,508.06903 358.11671,508.70903 360.62169,508.70903 C 363.16042,508.70903 364.78666,508.03028 365.79166,506.86279 C 366.96915,505.4953 367.26165,503.86031 367.26165,501.39907 L 367.26165,483.20544 z" />
+                                                    <path
+                                                        id="path4235"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 347.81427,507.84403 L 347.81302,507.86278 L 347.81302,507.87903 L 347.81177,507.89653 L 347.81052,507.91278 L 347.80927,507.92903 L 347.80802,507.94403 L 347.80552,507.96028 L 347.80302,507.97528 L 347.80052,507.98903 L 347.79802,508.00403 L 347.79427,508.01778 L 347.79052,508.03153 L 347.78677,508.04528 L 347.78302,508.05778 L 347.77802,508.07028 L 347.77302,508.08278 L 347.76802,508.09403 L 347.76302,508.10653 L 347.75802,508.11778 L 347.75177,508.12903 L 347.74677,508.13903 L 347.74052,508.15028 L 347.73427,508.16028 L 347.72677,508.17028 L 347.72052,508.17903 L 347.71302,508.18903 L 347.70677,508.19778 L 347.69927,508.20653 L 347.68302,508.22403 L 347.66677,508.24028 C 347.58427,508.32278 347.46677,508.38153 347.27177,508.38153 L 343.97555,508.38153 C 343.78555,508.38153 343.66805,508.32278 343.58555,508.24028 C 343.4968,508.15653 343.4393,508.03528 343.4393,507.84403 L 343.4393,485.91542 L 339.57182,485.91542 C 339.37683,485.91542 339.25933,485.85792 339.17183,485.76917 C 339.08308,485.68667 339.02933,485.56917 339.02933,485.37418 L 339.02933,483.20544 C 339.02933,483.01044 339.08308,482.89294 339.17183,482.80544 C 339.25933,482.72294 339.37683,482.66419 339.57182,482.66419 L 351.6855,482.66419 C 351.87675,482.66419 351.99299,482.72294 352.08174,482.80544 C 352.16424,482.89294 352.22299,483.01044 352.22299,483.20544 L 352.22299,485.37418 C 352.22299,485.56917 352.16424,485.68667 352.08174,485.76917 C 351.99299,485.85792 351.87675,485.91542 351.6855,485.91542 L 347.81427,485.91542 L 347.81427,507.84403 z" />
+                                                    <path
+                                                        id="path4237"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 369.99163,521.2527 L 359.6592,526.67766 C 346.27553,521.47269 345.14804,521.47269 331.76887,526.67766 L 321.43694,521.2527 L 331.76887,515.82773 C 345.14804,521.0327 346.27553,521.0327 359.6592,515.82773 L 369.99163,521.2527 z" />
+                                                    <path
+                                                        id="path4239"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 369.99163,534.66011 L 359.6592,540.08508 C 346.27553,534.88011 345.14804,534.88011 331.76887,540.08508 L 321.43694,534.66011 L 331.76887,529.2364 C 345.14804,534.44136 346.27553,534.44136 359.6592,529.2364 L 369.99163,534.66011 z" />
+                                                    <path
+                                                        id="path4241"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 369.99163,548.06402 L 359.6592,553.48874 C 346.27553,548.28365 345.14804,548.28365 331.76887,553.48874 L 321.43694,548.06402 L 331.76887,542.64406 C 345.14804,547.84915 346.27553,547.84915 359.6592,542.64406 L 369.99163,548.06402 z" />
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </td>
+                            <td valign="top">
+                                <a href="https://compute.dtu.dk/english" style="text-decoration: none;">
+                                    <p class="fw-bold text-start" style="color:white; font-size: 1.2em;">DTU COMPUTE</p>
+                                </a>
+                                <address class="text-secondary mt-3" style="color:white;">
+                                Richard Petersens Plads<br>
+                                Bygning 324, 2800 Kgs. Lyngby <br>
+                                Tlf. 4525 3031
+                                 </address>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "col-12 col-md-6 p-5">
+                    <!--<p class="fw-bold text-end" style="color:white; font-size: 1.2em;">ISPEC 2023</p>-->
+                    <div class="row">
+                        <div class = "col-12">
+                            <img src="img/logo/logoWhite.webp" align="right" width="115" alt="ISPEC 2023"><br>
+                        </div>
+                    </div>
+                    <address class="text-secondary mt-3 text-end" style="color:white;">
+                        ISPEC is a conference that brings together researchers, <br>scholars and practitioners to provide a confluence of <br>new information securtiy technologies.
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Initilization Scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+
+    <script>
+        let scrollpos = window.scrollY;
+        const header = document.querySelector(".navbar");
+        const header_height = header.offsetHeight;
+
+        const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm");
+        const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm");
+
+        window.addEventListener('scroll', function () {
+        scrollpos = window.scrollY;
+
+        if (scrollpos >= header_height) { add_class_on_scroll(); }
+        else { remove_class_on_scroll(); }
+
+        console.log(scrollpos);
+        })
+    </script>
+
+    <!-- Performance Optimization (Only index should preload every page) -->
+    <script>
+        if (HTMLScriptElement.supports && HTMLScriptElement.supports('speculationrules')) {
+            const specScript = document.createElement('script');
+            specScript.type = 'speculationrules';
+            specRules = {
+                prerender: [
+                    {
+                        source: 'list',
+                        urls: [
+                            "index.html"
+                            ],
+                    },
+                ],
+            };
+            specScript.textContent = JSON.stringify(specRules);
+            document.body.append(specScript)
+        }
+    </script>
+</body>
+
+</html>

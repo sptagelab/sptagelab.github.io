@@ -1,0 +1,685 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="description" content="ISPEC 2023 - The 18th International Conference on Information Security Practice and Experience">
+    <meta name="HandheldFriendly" content="true">
+
+    <link rel="stylesheet" href="css/theme.css">
+
+    <title>ISPEC 2023 - The 18th International Conference on Information Security Practice and Experience</title>
+
+    <!-- Specialized Font Configuration -->
+    <style>
+        /* inter-300 - latin */
+        @font-face {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 300;
+          font-display: swap;
+          src: local(''),
+            url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+            /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('./fonts/inter-v12-latin-300.woff') format('woff');
+          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        }
+    
+        @font-face {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-display: swap;
+          src: local(''),
+            url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+            /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('./fonts/inter-v12-latin-500.woff') format('woff');
+          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        }
+    
+        @font-face {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-display: swap;
+          src: local(''),
+            url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+            /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url('./fonts/inter-v12-latin-700.woff') format('woff');
+          /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+    <!-- Navigation Bar -->
+    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light" tabindex="0">
+        <div class="container">
+
+            <!-- Navigation Logo Section -->
+            <a class="navbar-brand pe-4 fs-4" href="index.html">
+                <img src="img/logo/logo.webp" height="32" alt="ISPEC 2023" style="-webkit-filter: drop-shadow(5px 5px 8px rgba(200, 200, 200, 1)); filter: drop-shadow(5px 5px 8px rgba(200, 200, 200, 1));">
+            </a>
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Item List -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-shadow active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Call For</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="call-for-paper.html">Call for Paper</a></li>
+                            <li><a class="dropdown-item" href="critical-dates.html">Important Dates</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Attendance</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="travel.html">Conference Venue</a></li>
+                            <li><a class="dropdown-item" href="travel.html#travelguide">Travel Guide</a></li>
+                            <li><a class="dropdown-item" href="https://nopkirouter1.compute.dtu.dk/conference/ispec2023/">ISPEC Inside</a></li>
+                            <li><a class="dropdown-item" href="https://link.springer.com/book/10.1007/978-981-99-7032-2">Conference Proceedings</a></li>
+                        </ul>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link fw-shadow" href="keynote.html" aria-label="Keynote">
+                            Keynote
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-shadow" href="program.html" aria-label="Program">
+                            Program
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-shadow" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Organization</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="orgs-general.html">Organizing Committee</a></li>
+                            <li><a class="dropdown-item" href="orgs-pc.html">Program Committee</a></li>
+                        </ul>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link fw-shadow" href="registration.html" aria-label="Registration">
+                            Registration
+                        </a>
+                    </li>
+                </ul>
+                <!-- Brochure Download Link -->
+                <a href="files/brochure.pdf" data-splitbee-event="Click Download" aria-label="Download Brochure" class="link-dark pb-1 link-fancy me-2 fw-shadow" target="_blank">
+                    Download Brochure
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download ms-1" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class = "py-vh-5 w-100 overflow-hidden">
+            <div class = "container">
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <h1 class = "display-1 fw-bold border-bottom border-dark pb-4 fw-shadow">
+                            Call for Paper
+                        </h1>
+                        <h5 class="fw-shadow">Last Update : [19 June, 2023]</h5>
+                        <p class = "lead-inline py-vh-2">
+                            The 18<sup>th</sup> International Conference on <b>Information Security Practice and Experience (ISPEC 2023)</b>
+                            will be held in <b>Copenhagen, Denmark, 2023.</b>
+                            <br><br>
+                            The ISPEC is an annual conference that brings together researchers, scholars and practitioners to provide a confluence
+                            of new information security technologies, including their applications and their integration with IT systems in various vertical sectors.
+                            In previous years, ISPEC has taken place in many cities. Note that ISPEC 2020 is postponed to 2021 due to the COVID-19 Pandamic. 
+                            For all editions, the conference proceedings were published by <b>Springer</b> in <b>Lecture Notes in Computer Science series</b>.
+                            The ISPEC 2023 conference solicits theoretical, methodological and experimental research reporting original and unpublished results on information security.
+                        </p>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center text-center">
+                    <div class = "col-6 col-lg-5 col-xl-4">
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2005 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Singapore, SG </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2006 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Hangzhou, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2007 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Hong Kong, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2008 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Sydney, AU </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2009 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Xi'an, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2010 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Seoul, KR </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2011 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Guangzhou, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2012 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Hangzhou, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2013 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Lanzhou, CN </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-6 col-lg-5 col-xl-4">
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2014 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Fuzhou, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2015 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Beijing, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2016 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Zhangjiajie, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2017 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Melbourne, AU </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2018 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Tokyo, JP </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2019 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Kuala Lumpur, MY </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2020 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> (Postponed) </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2021 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Nanjing, CN </p>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-3">
+                                <p class = "lead-inline"> 2022 </p>
+                            </div>
+                            <div class = "col-9">
+                                <p class = "lead-inline"> Taipei, TW </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <h2 class = "fw-bold py-vh-2 fw-shadow">
+                            Topics
+                        </h2>
+                        <p class = "lead-inline">
+                            Topics for ISPEC 2023 include but are not limited to:
+                        </p>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center text-left">
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Access Control </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Embedded System Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Secure Data Sharing in Cloud </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Applied Cryptography </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Formal Methods for Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Security and Privacy in Edge Computing </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Big Data Security and Privacy </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Intrusion Detection </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Security and Privacy in IoT </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Biometric Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Key Management </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Security and Privacy in Ubiquitous Computing </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Cloud Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Lightweight Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Security for Critical Infrastructures </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Cryptocurrency </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Web Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Security Issues in Blockchain </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Cybersecurity for Urban Transportation </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Malware Detection </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Smart Grid Security </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Cyber-Physical Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Mobile Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Software Security </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Data Security in Cloud Computing </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Network Security and Privacy </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Viruses and Malwares </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Database Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Operating System Security </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Trusted Management System for Mobile Computing </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Digital Forensics </p>
+                            </div>
+                            <div class = "col-12 col-lg-4">
+                                <p class = "lead-inline"> Privacy Enhanced Technology </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <h2 class = "fw-bold py-vh-2 fw-shadow">
+                            Submission Guidelines
+                        </h2>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <div class = "row">
+                            <div class = "col-12 col-lg-5">
+                                <p class = "lead-inline">
+                                    <button class="btn btn-lg text-start" style="background-color:transparent;">
+                                        <a href="https://www.springer.com/gp/computer-science/lncs/editor-guidelines-for-springer-proceedings" style="text-decoration: none;">
+                                            <svg version="1.1" id="_x32_" height="16px" width="16px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"  xml:space="preserve">
+                                                <style type="text/css">
+                                                    .st0{fill:#990000;}
+                                                </style>
+                                                <g>
+                                                    <rect x="115.774" y="335.487" class="st0" width="194.387" height="18.588"/>
+                                                    <rect x="115.774" y="260.208" class="st0" width="194.387" height="18.527"/>
+                                                    <rect x="115.774" y="184.862" class="st0" width="194.387" height="18.588"/>
+                                                    <rect x="218.582" y="109.576" class="st0" width="91.58" height="18.588"/>
+                                                    <path class="st0" d="M385.112,396.188V39.614c0-2.294-0.197-4.603-0.592-6.768C381.3,14.19,365.006,0,345.438,0H184.686
+                                                        c-11.561,0-22.598,4.603-30.741,12.747L53.637,112.986c-8.151,8.22-12.747,19.249-12.747,30.818v252.384
+                                                        c0,21.802,17.806,39.607,39.683,39.607h264.864C367.308,435.795,385.112,417.99,385.112,396.188z M170.634,27.529v89.074
+                                                        c0,9.662-3.745,13.399-13.339,13.399H68.222L170.634,27.529z M63.163,396.188V149.775h106.02c3.486,0,6.768-0.85,9.655-2.362
+                                                        c4.079-2.036,7.361-5.324,9.328-9.328c1.519-2.894,2.302-6.115,2.302-9.526V22.272h154.97c7.156,0,13.331,4.33,15.959,10.574
+                                                        c0.92,2.104,1.376,4.337,1.376,6.768v356.574c0,9.518-7.748,17.342-17.335,17.342H80.574
+                                                        C70.98,413.53,63.163,405.706,63.163,396.188z"/>
+                                                    <path class="st0" d="M431.488,76.205h-26.732l1.375,22.272h25.356c9.594,0,17.349,7.748,17.349,17.342v356.573
+                                                        c0,9.519-7.755,17.342-17.349,17.342H166.562c-7.163,0-13.339-4.406-15.968-10.581c-0.85-2.097-1.374-4.33-1.374-6.761V456.89
+                                                        h-22.272v15.503c0,2.294,0.198,4.589,0.593,6.761c3.22,18.588,19.515,32.846,39.022,32.846h264.926
+                                                        c21.877,0,39.622-17.805,39.622-39.607V115.82C471.11,93.943,453.365,76.205,431.488,76.205z"/>
+                                                </g>
+                                            </svg>
+                                            LNCS Format
+                                        </a>
+                                     </button>
+                                     <button class="btn btn-lg text-start" style="background-color:transparent;">
+                                        <svg width="16px" height="16px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                            <title>book</title>
+                                            <path d="M27.75 2c-0-0.414-0.336-0.75-0.75-0.75h-19.8c-0.028-0.001-0.061-0.002-0.094-0.002-1.541 0-2.797 1.22-2.856 2.746l-0 0.005v24.389c0.113 1.331 1.221 2.367 2.572 2.367 0.063 0 0.125-0.002 0.187-0.007l-0.008 0h20c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0h-19.8c-0.023 0.001-0.050 0.002-0.077 0.002-0.717 0-1.306-0.547-1.373-1.247l-0-0.006v-1.223c0-0.459 0.584-0.861 1.248-0.861l20.002 0.057c0 0 0.001 0 0.001 0 0.207 0 0.394-0.084 0.529-0.22l0-0c0.017-0.017 0.025-0.041 0.040-0.060 0.047-0.051 0.087-0.11 0.118-0.173l0.002-0.004c0.016-0.049 0.029-0.105 0.034-0.164l0-0.003c0.011-0.035 0.020-0.077 0.025-0.121l0-0.003v-0.002zM26.25 24.471l-15.5-0.044v-21.677h15.5zM5.75 24.686v-20.686c0.067-0.705 0.657-1.252 1.374-1.252 0.027 0 0.054 0.001 0.080 0.002l-0.004-0h2.050v21.672l-2.25-0.006c-0.453 0.002-0.883 0.101-1.269 0.278l0.019-0.008zM14 7.75h9c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0h-9c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0zM23 10.25h-9c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0h9c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0z"></path>
+                                        </svg>
+                                        16 Pages <br>(20 incl. ref. & appx.)
+                                     </button>
+                                     <button class="btn btn-lg text-start" style="background-color:transparent;">
+                                        <svg width="16px" height="16px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                            <title>eye-slash</title>
+                                            <path d="M18.822 22.904c-5.215 1.275-10.524-1.051-15.818-6.904 1.337-1.501 2.79-2.843 4.364-4.034l0.076-0.055c0.186-0.138 0.305-0.357 0.305-0.604 0-0.414-0.336-0.75-0.75-0.75-0.166 0-0.32 0.054-0.444 0.146l0.002-0.001c-1.91 1.447-3.588 3.024-5.086 4.761l-0.036 0.042c-0.115 0.131-0.185 0.305-0.185 0.494s0.070 0.363 0.186 0.495l-0.001-0.001c4.803 5.488 9.693 8.254 14.582 8.254 1.123-0.001 2.212-0.142 3.252-0.406l-0.092 0.020c0.332-0.082 0.573-0.377 0.573-0.729 0-0.414-0.336-0.75-0.75-0.75-0.064 0-0.125 0.008-0.184 0.023l0.005-0.001zM16.75 20c-0-0.414-0.336-0.75-0.75-0.75v0c-1.794-0.002-3.248-1.456-3.25-3.25v-0c0-0.414-0.336-0.75-0.75-0.75s-0.75 0.336-0.75 0.75v0c0.003 2.622 2.128 4.747 4.75 4.75h0c0.414-0 0.75-0.336 0.75-0.75v0zM23.565 22.503c2.701-1.672 5.010-3.665 6.965-5.967l0.034-0.042c0.116-0.131 0.186-0.304 0.186-0.494s-0.070-0.363-0.187-0.495l0.001 0.001c-6.844-7.82-13.822-10.081-20.758-6.76l-7.277-7.276c-0.135-0.131-0.32-0.212-0.523-0.212-0.414 0-0.75 0.336-0.75 0.75 0 0.203 0.081 0.388 0.213 0.523l27.999 28.001c0.136 0.136 0.324 0.22 0.531 0.22 0.415 0 0.751-0.336 0.751-0.751 0-0.207-0.084-0.395-0.22-0.531v0zM28.996 16c-1.852 2.121-4.004 3.919-6.402 5.345l-0.121 0.067-2.636-2.635c0.569-0.767 0.911-1.731 0.912-2.776v-0c-0.003-2.622-2.128-4.747-4.75-4.75h-0c-1.045 0.002-2.009 0.344-2.789 0.921l0.013-0.009-2.29-2.29c6.027-2.647 11.95-0.64 18.062 6.127zM14.301 13.239c0.486-0.307 1.077-0.489 1.711-0.489 1.788 0 3.238 1.45 3.238 3.238 0 0.634-0.182 1.225-0.497 1.724l0.008-0.013z"></path>
+                                        </svg>
+                                        Anonymous
+                                     </button>
+                                     <button class="btn btn-lg text-start" style="background-color:transparent;">
+                                        <a href="https://easychair.org/conferences/?conf=ispec2023" style="text-decoration:none;">
+                                            <svg width="16px" height="16px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                <title>door-open</title>
+                                                <path fill="#990000" d="M30 29.25h-1.25v-25.25c-0-0.414-0.336-0.75-0.75-0.75h-6c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0h5.25v25.25c0 0.414 0.336 0.75 0.75 0.75h2c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0zM17.853 1.26l-11.977 2c-0.357 0.062-0.626 0.37-0.626 0.74 0 0 0 0 0 0v0 25.25h-3.25c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0h15.977c0.414-0 0.75-0.336 0.75-0.75v0-28c-0.001-0.414-0.337-0.75-0.751-0.75-0.043 0-0.086 0.004-0.127 0.011l0.004-0.001zM6.75 29.25v-24.615l10.477-1.749v26.364zM13.979 15.3c-0.082-0.030-0.177-0.048-0.276-0.048-0.21 0-0.401 0.079-0.545 0.209l0.001-0.001c-0.136 0.139-0.22 0.33-0.22 0.54s0.084 0.401 0.22 0.54l-0-0c0.145 0.122 0.334 0.197 0.539 0.199h0.001c0.1-0.002 0.197-0.016 0.288-0.042l-0.008 0.002c0.094-0.039 0.173-0.092 0.24-0.159v0c0.136-0.139 0.22-0.33 0.22-0.54s-0.084-0.401-0.22-0.54l0 0c-0.067-0.068-0.147-0.122-0.236-0.158l-0.005-0.002z"></path>
+                                            </svg>
+                                            Through EasyChair
+                                        </a>        
+                                     </button>
+                                     <button class="btn btn-lg text-start" style="background-color:transparent;">
+                                        <svg width="16px" height="16px" viewBox="0 0 122.88 122.88" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  style="enable-background:new 0 0 122.88 122.88" xml:space="preserve">
+                                            <g>
+                                            <path d="M81.61,4.73c0-2.61,2.58-4.73,5.77-4.73c3.19,0,5.77,2.12,5.77,4.73v20.72c0,2.61-2.58,4.73-5.77,4.73 c-3.19,0-5.77-2.12-5.77-4.73V4.73L81.61,4.73z M66.11,103.81c-0.34,0-0.61-1.43-0.61-3.2c0-1.77,0.27-3.2,0.61-3.2H81.9 c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H66.11L66.11,103.81z M15.85,67.09c-0.34,0-0.61-1.43-0.61-3.2 c0-1.77,0.27-3.2,0.61-3.2h15.79c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H15.85L15.85,67.09z M40.98,67.09 c-0.34,0-0.61-1.43-0.61-3.2c0-1.77,0.27-3.2,0.61-3.2h15.79c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H40.98 L40.98,67.09z M66.11,67.09c-0.34,0-0.61-1.43-0.61-3.2c0-1.77,0.27-3.2,0.61-3.2H81.9c0.34,0,0.61,1.43,0.61,3.2 c0,1.77-0.27,3.2-0.61,3.2H66.11L66.11,67.09z M91.25,67.09c-0.34,0-0.61-1.43-0.61-3.2c0-1.77,0.27-3.2,0.61-3.2h15.79 c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H91.25L91.25,67.09z M15.85,85.45c-0.34,0-0.61-1.43-0.61-3.2 c0-1.77,0.27-3.2,0.61-3.2h15.79c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H15.85L15.85,85.45z M40.98,85.45 c-0.34,0-0.61-1.43-0.61-3.2c0-1.77,0.27-3.2,0.61-3.2h15.79c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H40.98 L40.98,85.45z M66.11,85.45c-0.34,0-0.61-1.43-0.61-3.2c0-1.77,0.27-3.2,0.61-3.2H81.9c0.34,0,0.61,1.43,0.61,3.2 c0,1.77-0.27,3.2-0.61,3.2H66.11L66.11,85.45z M91.25,85.45c-0.34,0-0.61-1.43-0.61-3.2c0-1.77,0.27-3.2,0.61-3.2h15.79 c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H91.25L91.25,85.45z M15.85,103.81c-0.34,0-0.61-1.43-0.61-3.2 c0-1.77,0.27-3.2,0.61-3.2h15.79c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H15.85L15.85,103.81z M40.98,103.81 c-0.34,0-0.61-1.43-0.61-3.2c0-1.77,0.27-3.2,0.61-3.2h15.79c0.34,0,0.61,1.43,0.61,3.2c0,1.77-0.27,3.2-0.61,3.2H40.98 L40.98,103.81z M29.61,4.73c0-2.61,2.58-4.73,5.77-4.73s5.77,2.12,5.77,4.73v20.72c0,2.61-2.58,4.73-5.77,4.73 s-5.77-2.12-5.77-4.73V4.73L29.61,4.73z M6.4,45.32h110.07V21.47c0-0.8-0.33-1.53-0.86-2.07c-0.53-0.53-1.26-0.86-2.07-0.86H103 c-1.77,0-3.2-1.43-3.2-3.2c0-1.77,1.43-3.2,3.2-3.2h10.55c2.57,0,4.9,1.05,6.59,2.74c1.69,1.69,2.74,4.02,2.74,6.59v27.06v65.03 c0,2.57-1.05,4.9-2.74,6.59c-1.69,1.69-4.02,2.74-6.59,2.74H9.33c-2.57,0-4.9-1.05-6.59-2.74C1.05,118.45,0,116.12,0,113.55V48.52 V21.47c0-2.57,1.05-4.9,2.74-6.59c1.69-1.69,4.02-2.74,6.59-2.74H20.6c1.77,0,3.2,1.43,3.2,3.2c0,1.77-1.43,3.2-3.2,3.2H9.33 c-0.8,0-1.53,0.33-2.07,0.86c-0.53,0.53-0.86,1.26-0.86,2.07V45.32L6.4,45.32z M116.48,51.73H6.4v61.82c0,0.8,0.33,1.53,0.86,2.07 c0.53,0.53,1.26,0.86,2.07,0.86h104.22c0.8,0,1.53-0.33,2.07-0.86c0.53-0.53,0.86-1.26,0.86-2.07V51.73L116.48,51.73z M50.43,18.54 c-1.77,0-3.2-1.43-3.2-3.2c0-1.77,1.43-3.2,3.2-3.2h21.49c1.77,0,3.2,1.43,3.2,3.2c0,1.77-1.43,3.2-3.2,3.2H50.43L50.43,18.54z"/>
+                                            </g>
+                                        </svg>
+                                        Before 30 June
+                                     </button>
+                                </p>
+                            </div>
+                            <div class = "col-12 col-lg-7">
+                                <p class = "lead-inline">
+                                    Authors are invited to submit original papers. Submissions must not substantially duplicate work that any of the authors has published elsewhere or has submitted in parallel for consideration of any other conference with proceeding or any journal. Submissions must be anonymous, with no author names, affiliations, acknowledgments, or obvious references. Original contributions are invited up to 16 pages in length (single column) excluding the bibliography and appendices and up to 20 pages in total, using at least 11-point fonts and with reasonable margins. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <p class = "lead-inline">
+                            Submissions not meeting the submission guidelines risk rejection without consideration of their merits. Authors of accepted papers must guarantee that at least one of the authors will register for the conference before the due date of the camera-ready version and attend the conference to present their work. Submitted papers should follow the instructions of the Springer LNCS style. Please kindly refer to Springer LNCS Author Information for style and formatting guidelines. The ISPEC 2023 conference proceedings will be published by Springer in the Lecture Notes in Computer Science series.
+                        </p>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center">
+                    <div class = "col-12 col-lg-10 col-xl-8">
+                        <h2 class = "fw-bold py-vh-2 fw-shadow">
+                            Important Dates
+                        </h2>
+                    </div>
+                </div>
+                <div class = "row d-flex justify-content-center">
+                    <div class="py-vh-2 col-md-6 col-lg-3" data-aos="fade-up">
+                        <span class="h4 fw-lighter">[1 June, 2023]</span>
+                        <h3 class="py-5 border-top border-dark">Submission Deadline</h3>
+                    </div>
+            
+                    <div class="py-vh-2 col-md-6 col-lg-3" data-aos="fade-up">
+                        <span class="h4 fw-lighter">[1 July, 2023]</span>
+                        <h3 class="py-5 border-top border-dark">Notification Due</h3>
+                    </div>
+            
+                    <div class="py-vh-2 col-md-6 col-lg-3" data-aos="fade-up">
+                        <span class="h4 fw-lighter">[10 July, 2023]</span>
+                        <h3 class="py-5 border-top border-dark">Final Version Due</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="bg-dtu-dark">
+        <div class="container small border-top  ">
+            <div class="row d-flex justify-content-between">
+                <div class="col-12 col-md-6 p-5">
+                    <table>
+                        <tr>
+                            <td valign="top">
+                                <a href="https://www.dtu.dk/english/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="currentColor" class="bi bi-layers-half" viewbox="0 0 75 75">
+                                        <g
+                                            inkscape:label="Layer 1"
+                                            inkscape:groupmode="layer"
+                                            id="layer1"
+                                            transform="translate(0,-981.52969)">
+                                            <g
+                                                id="g4276"
+                                                transform="translate(-321.43694,498.87344)">
+                                                <g id="g4284">
+                                                    <path
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 324.4375,482.65625 L 324.4375,482.6875 L 324.40625,482.6875 L 324.375,482.6875 L 324.34375,482.6875 L 324.3125,482.71875 L 324.28125,482.71875 L 324.25,482.75 L 324.21875,482.75 L 324.21875,482.78125 L 324.1875,482.78125 L 324.15625,482.8125 C 324.06839,482.89999 324.03125,483.02375 324.03125,483.21875 L 324.03125,507.84375 C 324.03124,508.03501 324.06838,508.16625 324.15625,508.25 C 324.23926,508.33252 324.37213,508.375 324.5625,508.375 L 331,508.375 C 333.50485,508.375 335.04625,507.82624 335.96875,506.625 C 337.33624,504.98876 337.375,502.32873 337.375,498.28125 L 337.375,492.75 C 337.37501,488.69752 337.33624,486.07249 335.96875,484.4375 C 335.04625,483.23627 333.50486,482.65625 331,482.65625 L 324.5625,482.65625 L 324.53125,482.65625 L 324.5,482.65625 L 324.46875,482.65625 L 324.4375,482.65625 z M 328.125,485.65625 L 330.375,485.65625 C 331.38074,485.65626 331.97363,485.81875 332.4375,486.375 C 333.15526,487.235 333.21875,488.97377 333.21875,492.46875 L 333.21875,498.5625 C 333.21876,502.05373 333.15525,503.79626 332.4375,504.65625 C 331.97364,505.21249 331.38074,505.375 330.375,505.375 L 328.125,505.375 L 328.125,485.65625 z"
+                                                        id="path4229" />
+                                                    <path
+                                                        id="path4233"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 367.26165,483.20544 L 367.26165,483.18794 L 367.26165,483.17044 L 367.2604,483.15294 L 367.25915,483.13669 L 367.2579,483.12044 L 367.2554,483.10419 L 367.25415,483.08794 L 367.25165,483.07294 L 367.24915,483.05919 L 367.2454,483.04419 L 367.2429,483.03044 L 367.23915,483.01669 L 367.2354,483.00294 L 367.2304,482.99044 L 367.22665,482.97794 L 367.22165,482.96544 L 367.21665,482.95294 L 367.21165,482.94169 L 367.20665,482.93044 L 367.2004,482.91919 L 367.19415,482.90919 L 367.1879,482.89794 L 367.18165,482.88794 L 367.1754,482.87794 L 367.16915,482.86794 L 367.16165,482.85794 L 367.14665,482.84044 L 367.13165,482.82294 L 367.1154,482.80544 C 367.0329,482.72294 366.9154,482.66419 366.7204,482.66419 L 363.71167,482.66419 C 363.51667,482.66419 363.39917,482.72294 363.31667,482.80544 C 363.22917,482.89294 363.17042,483.01044 363.17042,483.20544 L 363.17042,501.39407 C 363.17042,503.29406 363.02792,504.42155 362.41293,505.1003 C 361.99293,505.55905 361.39793,505.78405 360.56794,505.78405 C 359.82044,505.78405 359.2492,505.57405 358.8142,505.0953 C 358.2292,504.45155 358.04796,503.36156 358.04796,501.39407 L 358.04796,483.20544 C 358.04796,483.01044 357.99421,482.89294 357.90671,482.80544 C 357.82296,482.72294 357.70671,482.66419 357.51046,482.66419 L 354.49798,482.66419 C 354.30298,482.66419 354.19048,482.72294 354.10298,482.80544 C 354.01548,482.89294 353.96173,483.01044 353.96173,483.20544 L 353.96173,501.39907 C 353.96173,504.05031 354.31798,505.7103 355.37172,506.86779 C 356.46547,508.06903 358.11671,508.70903 360.62169,508.70903 C 363.16042,508.70903 364.78666,508.03028 365.79166,506.86279 C 366.96915,505.4953 367.26165,503.86031 367.26165,501.39907 L 367.26165,483.20544 z" />
+                                                    <path
+                                                        id="path4235"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 347.81427,507.84403 L 347.81302,507.86278 L 347.81302,507.87903 L 347.81177,507.89653 L 347.81052,507.91278 L 347.80927,507.92903 L 347.80802,507.94403 L 347.80552,507.96028 L 347.80302,507.97528 L 347.80052,507.98903 L 347.79802,508.00403 L 347.79427,508.01778 L 347.79052,508.03153 L 347.78677,508.04528 L 347.78302,508.05778 L 347.77802,508.07028 L 347.77302,508.08278 L 347.76802,508.09403 L 347.76302,508.10653 L 347.75802,508.11778 L 347.75177,508.12903 L 347.74677,508.13903 L 347.74052,508.15028 L 347.73427,508.16028 L 347.72677,508.17028 L 347.72052,508.17903 L 347.71302,508.18903 L 347.70677,508.19778 L 347.69927,508.20653 L 347.68302,508.22403 L 347.66677,508.24028 C 347.58427,508.32278 347.46677,508.38153 347.27177,508.38153 L 343.97555,508.38153 C 343.78555,508.38153 343.66805,508.32278 343.58555,508.24028 C 343.4968,508.15653 343.4393,508.03528 343.4393,507.84403 L 343.4393,485.91542 L 339.57182,485.91542 C 339.37683,485.91542 339.25933,485.85792 339.17183,485.76917 C 339.08308,485.68667 339.02933,485.56917 339.02933,485.37418 L 339.02933,483.20544 C 339.02933,483.01044 339.08308,482.89294 339.17183,482.80544 C 339.25933,482.72294 339.37683,482.66419 339.57182,482.66419 L 351.6855,482.66419 C 351.87675,482.66419 351.99299,482.72294 352.08174,482.80544 C 352.16424,482.89294 352.22299,483.01044 352.22299,483.20544 L 352.22299,485.37418 C 352.22299,485.56917 352.16424,485.68667 352.08174,485.76917 C 351.99299,485.85792 351.87675,485.91542 351.6855,485.91542 L 347.81427,485.91542 L 347.81427,507.84403 z" />
+                                                    <path
+                                                        id="path4237"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 369.99163,521.2527 L 359.6592,526.67766 C 346.27553,521.47269 345.14804,521.47269 331.76887,526.67766 L 321.43694,521.2527 L 331.76887,515.82773 C 345.14804,521.0327 346.27553,521.0327 359.6592,515.82773 L 369.99163,521.2527 z" />
+                                                    <path
+                                                        id="path4239"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 369.99163,534.66011 L 359.6592,540.08508 C 346.27553,534.88011 345.14804,534.88011 331.76887,540.08508 L 321.43694,534.66011 L 331.76887,529.2364 C 345.14804,534.44136 346.27553,534.44136 359.6592,529.2364 L 369.99163,534.66011 z" />
+                                                    <path
+                                                        id="path4241"
+                                                        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+                                                        d="M 369.99163,548.06402 L 359.6592,553.48874 C 346.27553,548.28365 345.14804,548.28365 331.76887,553.48874 L 321.43694,548.06402 L 331.76887,542.64406 C 345.14804,547.84915 346.27553,547.84915 359.6592,542.64406 L 369.99163,548.06402 z" />
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </td>
+                            <td valign="top">
+                                <a href="https://compute.dtu.dk/english" style="text-decoration: none;">
+                                    <p class="fw-bold text-start" style="color:white; font-size: 1.2em;">DTU COMPUTE</p>
+                                </a>
+                                <address class="text-secondary mt-3" style="color:white;">
+                                Richard Petersens Plads<br>
+                                Bygning 324, 2800 Kgs. Lyngby <br>
+                                Tlf. 4525 3031
+                                 </address>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class = "col-12 col-md-6 p-5">
+                    <!--<p class="fw-bold text-end" style="color:white; font-size: 1.2em;">ISPEC 2023</p>-->
+                    <div class="row">
+                        <div class = "col-12">
+                            <img src="img/logo/logoWhite.webp" align="right" width="115" alt="ISPEC 2023"><br>
+                        </div>
+                    </div>
+                    <address class="text-secondary mt-3 text-end" style="color:white;">
+                        ISPEC is a conference that brings together researchers, <br>scholars and practitioners to provide a confluence of <br>new information securtiy technologies.
+                    </address>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Initilization Scripts -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800, // values from 0 to 3000, with step 50ms
+        });
+    </script>
+
+    <script>
+        let scrollpos = window.scrollY;
+        const header = document.querySelector(".navbar");
+        const header_height = header.offsetHeight;
+
+        const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm");
+        const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm");
+
+        window.addEventListener('scroll', function () {
+        scrollpos = window.scrollY;
+
+        if (scrollpos >= header_height) { add_class_on_scroll(); }
+        else { remove_class_on_scroll(); }
+
+        console.log(scrollpos);
+        })
+    </script>
+
+        <!-- Performance Optimization (Only index should preload every page) -->
+        <script>
+            if (HTMLScriptElement.supports && HTMLScriptElement.supports('speculationrules')) {
+                const specScript = document.createElement('script');
+                specScript.type = 'speculationrules';
+                specRules = {
+                    prerender: [
+                        {
+                            source: 'list',
+                            urls: [
+                                "index.html"
+                                ],
+                        },
+                    ],
+                };
+                specScript.textContent = JSON.stringify(specRules);
+                document.body.append(specScript)
+            }
+        </script>
+</body>
+
+</html>
