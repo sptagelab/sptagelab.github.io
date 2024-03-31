@@ -1,7 +1,5 @@
 # Security Privacy Trust (SPT) A.G.E. Website with Modular Design
 
-
-
 ## Directory Structure
 
 - <b>css</b> (CSS files for the main SPTA.G.E. website.)
@@ -22,7 +20,87 @@
 
 - <b>workshops</b> (Workshop websites' folder.)
 
+## 
 
+## Data Entries
+
+Data entries for important for modular SPT A.G.E. modular website. These data entries provide the data records for the DDB(Distributed Database.). Please read the following instruction carefully before editing these data entries.
+
+
+
+### General rules for data entries:
+
+#### Storage Location:
+
+All website data entries are contained at: <b><u>data</u></b> directory.
+
+
+
+#### Expression and Context:
+
+- All records are structured in <b><u>XML</u></b> format.
+
+- <b>HTML expressions are allowed.</b> However, <b><u>Special characters listed in HTML entities need to be escaped properly</u></b>.
+  
+  - Example:
+    
+    - ```text```
+      What you want: <b>Emphasize this</b>
+      ```
+    
+    - ```text```
+      What you should do: &lt;b&gt;Emphasize this&lt;/b&gt;
+      ```
+  
+  - Commonly used HTML enties:
+    
+    - ```textile
+      < : &lt;
+      ```
+    
+    - ```textile
+      > : &gt;
+      ```
+    
+    - ```textile
+      " : &quot;
+      ```
+    
+    - ```textile
+      & : &amp;
+      ```
+    
+    - ```textile
+      space : &nbsp;
+      ```
+    
+    - ```textile
+      ( : &#40;
+      ```
+    
+    - ```textile
+      ) : &#41;
+      ```
+    
+    - For more information about HTML entities, take a look at this [table](https://www.freeformatter.com/html-entities.html)
+
+
+
+#### About Data Entries
+
+- intro.xml
+
+- news.xml
+
+- people.xml
+
+- works.xml
+
+- events.xml
+
+- footer.xml
+
+## 
 
 ## Notes
 
@@ -33,11 +111,3 @@
 <b>3. If that is active, keep it as separate repository:</b> If any subsites are still under active update or using, please keep it as separate repository - Using "Github Pages" settings to hook it under the website.
 
 <b>4. Private matters shouldn't be here:</b> Please do not push any updates that may breach or distrub your's or one's privacy, as these updates can leave traces in history, even if these updates are removed later.
-
-
-
-
-
-
-
-
