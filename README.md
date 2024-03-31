@@ -92,9 +92,24 @@ All website data entries are contained at: <b><u>data</u></b> directory.
 
 - <b>intro.xml</b> : The introductory information for the page tab: Home. (<b>Only 1 record allowed!</b> Adding more records will not take effect.)
   
+  - <i>Data Structure:</i>
+    
+    - ```textile
+      <intro>
+      ```
+  
   - **\<intro\>** : Attribute for storing the lab's introductory information. [Mandatory]
 
 - <b>news.xml</b> : News information for the page tab: Home.
+  
+  - <i>Data Structure</i>
+    
+    - ```textile
+      <newsBunch>
+          |- <news>
+                |- <date>
+                |- <content>
+      ```
   
   - **\<date\>** : The date and time when the piece of news was published. It must follow the format: <b>dd mm, YYYY HH:MM:SS</b> [Mandatory]
   
@@ -102,13 +117,89 @@ All website data entries are contained at: <b><u>data</u></b> directory.
 
 - <b>people.xml</b>
   
-  - 
+  - <i>Data Structure</i>
+    
+    - ```textile
+      <people>
+         |- <faculties>
+              |- <name>
+              |- <img>
+              |- <position>
+              |- <desc>
+         |- <phds>
+              |- <name>
+              |- <url>
+              |- <duration>
+              |- <interest>
+              |- <project>
+              |- <projects> (When multiple projects were given)
+                   |- <project>
+              |- <special>
+              |- <specials> (When multiple special proj. were given)
+                   |- <special>
+              |- <addendum>
+              |- <addendums> (When multiple addendums were given)
+                   |- <addendum>
+         |- <postdocs>
+              |- (same as <phds>)
+         |- <masters>
+              |- (same as <phds>)
+         |- <bachelors>
+              |- (same as <phds>)
+         |- <awards>
+              |- <name>
+              |- <url>
+      ```
+  
+  - **\<faculties\>**
 
 - <b>works.xml</b>
+  
+  - <i>Data Structure</i>
+    
+    - ```textile
+      <workBunch>
+         |- <work>
+              |- <title>
+              |- <desc>
+              |- <img>
+              |- <button>
+              |- <buttons> (When multiple buttons were assigned)
+                   |- <button>
+      ```
+  
+  - dsa
 
 - <b>events.xml</b>
+  
+  - <i>Data Structure</i>
+    
+    - ```textile
+      <events>
+         |- <event>
+              |- <title>
+              |- <type>
+              |- <location>
+              |- <date>
+              |- <url>
+              |- <desc>
+      ```
+  
+  - d
 
 - <b>footer.xml</b>
+  
+  - <i>Data Structure</i>
+    
+    - ```textile
+      <relatedGroups>
+         |- <relatedGroup>
+               |- <name>
+               |- <url>
+               |- <img>
+      ```
+  
+  - d
 
  
 
