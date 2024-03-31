@@ -99,6 +99,14 @@ All website data entries are contained at: <b><u>data</u></b> directory.
       ```
   
   - **\<intro\>** : Attribute for storing the lab's introductory information. [Mandatory]
+  
+  - <i>Example</i>
+    
+    - ```textile
+      <intro>
+          &lt;a href=&quot;https://example.com&quot;&gt;Lorem ipsum dolor sit amet&lt;/a&gt;, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </intro>
+      ```
 
 - <b>news.xml</b> : News information for the page tab: Home.
   
@@ -111,9 +119,24 @@ All website data entries are contained at: <b><u>data</u></b> directory.
                 |- <content>
       ```
   
-  - **\<date\>** : The date and time when the piece of news was published. It must follow the format: <b>dd mm, YYYY HH:MM:SS</b> [Mandatory]
+  - **\<newsBunch\>** : The collection entity for \<news\>
+    
+    - **\<news\>** : The data entity of news
+      
+      - **\<date\>** : The date and time when the piece of news was published. It must follow the format: <b>dd mm, YYYY HH:MM:SS</b> [Mandatory]
+      
+      - **\<content\>** : Information you wish to display. [Mandatory]
   
-  - **\<content\>** : Information you wish to display. [Mandatory]
+  - <i>Example</i>
+    
+    - ```textile
+      <newsBunch>
+          <news>
+              <date>31 March, 2024 12:34:56</date>
+              <content>Lorem ipsum dolor sit amet</content>
+          </news>
+      </newsBunch>
+      ```
 
 - <b>people.xml</b>
   
@@ -157,7 +180,102 @@ All website data entries are contained at: <b><u>data</u></b> directory.
                    |- <url>
       ```
   
-  - **\<faculties\>**
+  - **\<faculties\>** : The collection entity for \<faculty\>
+    
+    - **\<faculty\>** : The data entity of faculty
+      
+      - **\<name\>** : The name of the faculty [Mandatory]
+      
+      - **\<img\>** : The URL of the image for faculty. Relative path can be used. [Mandatory]
+      
+      - **\<position\>** : The position of the faculty. [Mandatory]
+      
+      - **\<desc\>** : The description of the faculty. [Mandatory]
+  
+  - **\<phds\>** : The collection entity for \<phd\>
+    
+    - **\<phd\>**: The data entity of Ph.D.
+      
+      - **\<name\>** : The name of the student. [Mandatory]
+      
+      - **\<url\>** : The URL to the student's personal site or profile. [Optional]
+      
+      - **\<duration\>** : The study duration of the student. [Mandatory]
+      
+      - **\<interest\>** : The research interest(s) of the student. [Optional]
+      
+      - **\<projects\>** : (<u>Use only If multiple projects were given to this student : </u> ) The collection entity for \<project\> [Optional]
+        
+        - **\<project\>** : The main research project of the student. [Optional]
+      
+      - **\<specials\>** : (<u>Use only if multiple special courses / projects were given to this students : </u>) The collection entity for \<special\> [Optional]
+        
+        - **\<special\>** : The special course of the student. [Optional]
+      
+      - **\<addendums\>** : (<u>Use only if multiple addendums were given to this students. : </u>) The collection entity for \<addendum\> [Optional]
+        
+        - **\<addendum\>** : The additional information of the student. [Optional]
+  
+  - **\<postdocs\>** : The collection entity for \<postdoc\>
+    
+    - **\<postdoc\>** : The data entity of PostDoc
+      
+      - (Same as PhD)
+  
+  - **\<masters\>** : The collection entity for \<master\>
+    
+    - **\<master\>** : The data entity of Master
+      
+      - (Same as PhD)
+  
+  - **\<bachelors\>** : The collection entity for \<bachelor\>
+    
+    - **\<bachelor\>** : The data entity of Bachelor
+      
+      - (Same as PhD)
+  
+  - **\<awards\>** : The collection entity for \<award\>
+    
+    - **\<award\>** : The data entity for award
+      
+      - **\<name\>** : The title of the award.
+      
+      - **\<url\>** : The URL toward the resource of the award.
+  
+  - <i>Example</i>
+    
+    - ```textile
+      <people>
+          <faculties>
+              <faculty>
+                  <name>John Doe</name>
+                  <img>img/people/jd.jpg</url>
+                  <position>Assistant Professor</position>
+                  <desc>Lorem ipsum dolor sit amet</desc>
+              </faculty>
+          </faculties>
+          <phds>
+              <phd>
+                  <name>Jane Doe</name>
+                  <url>https://example.com</url>
+                  <projects>
+                      <project>Research Topic 1</project>
+                      <project>Research Topic 2</project>
+                  </projects>
+              </phd>
+          </phds>
+          <masters>
+              <master>
+                  <name>Hank Doe</name>
+                  <project>Graduation Project</project>
+                  <specials>
+                      <special>Special Course 1</special>
+                      <special>Special Course 2</special>
+                  </specials>
+              </master>
+          </masters>
+      </people>
+      ```
 
 - <b>works.xml</b>
   
