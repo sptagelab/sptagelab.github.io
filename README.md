@@ -24,7 +24,7 @@
 
 ## Data Entries
 
-Data entries for important for modular SPT A.G.E. modular website. These data entries provide the data records for the DDB(Distributed Database.). Please read the following instruction carefully before editing these data entries.
+Data entries is important for modular SPT A.G.E. modular website. These data entries provide the data records for the DDB(Distributed Database.). Please read the following instruction carefully before editing these data entries.
 
 ### General rules for data entries:
 
