@@ -51,19 +51,19 @@ All website data entries are contained at: <b><u>data</u></b> directory.
   - Commonly used HTML entities:
     
     - ```textile
-      < : <
+      < : &lt;
       ```
     
     - ```textile
-      > : >
+      > : &gt;
       ```
     
     - ```textile
-      " : "
+      " : &quot;
       ```
     
     - ```textile
-      & : &
+      & : &amp;
       ```
     
     - ```textile
