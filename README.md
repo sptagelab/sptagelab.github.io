@@ -94,7 +94,7 @@ All website data entries are contained at: <b><u>data</u></b> directory.
     
     - ```textile
       <intro>
-          <a href="https://example.com">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          &lt;a href=&quot;https://example.com&quot;&gt;Lorem ipsum dolor sit amet&lt;/a&gt;, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </intro>
       ```
 
