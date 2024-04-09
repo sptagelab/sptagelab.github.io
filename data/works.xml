@@ -42,7 +42,7 @@
     <work>
         <title>&lt;b&gt;BlockFW&lt;/b&gt; (Secureware 2022)</title>
         <desc>Blockchain-based Rule-Sharing Firewall</desc>
-        <img>img/works/BlockFW.png</img>
+        <img>img/works/blockfw.png</img>
         <buttons>
             <button>
                 <button_text>Source Code</button_text>
