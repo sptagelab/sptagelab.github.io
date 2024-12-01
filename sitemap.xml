@@ -1,32 +1,142 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://www.animaqct.com/</loc>
-<lastmod>2024-06-24</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://www.animaqct.com/index-en.html</loc>
-<lastmod>2024-06-24</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://www.animaqct.com/contact.html</loc>
-<lastmod>2024-06-24</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.animaqct.com/contact-en.html</loc>
-<lastmod>2024-06-24</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.animaqct.com/about.html</loc>
-<lastmod>2024-06-24</lastmod>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://www.animaqct.com/about-en.html</loc>
-<lastmod>2024-06-24</lastmod>
-<priority>0.6</priority>
-</url>
+    <url>
+        <loc>https://sptagelab.github.io/</loc>
+        <lastmod>2024-12-01</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/DevLeChain</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/conferences/ESORICS2022</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.4</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/conferences/ICA3PP2022</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/conferences/ICICS2020</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/conferences/IFIPSEC2022</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/conferences/ISPEC2023</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/ASSS2021</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/ASSS2022</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/ASSS2023</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/CSS2021</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/EISA2020</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/EISA2021</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/EISA2022</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/EISA2023</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/symposiums/EISA2024</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/ADIOT2019</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/ADIOT2020</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/ADIOT2021</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/ADIOT2022</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/ADIOT2023</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/AIBLOCK2019</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/AIBLOCK2020</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/AIBLOCK2021</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/AIBLOCK2022</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/AIBLOCK2023</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/AIBLOCK2024</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
+    <url>
+        <loc>https://sptagelab.github.io/workshops/STM2022</loc>
+        <lastmod>2024-06-01</lastmod>
+        <priority>0.2</priority>
+    </url>
 </urlset>
