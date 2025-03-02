@@ -4,13 +4,13 @@
         <faculty>
             <name>Weizhi Meng</name>
             <img>img/people/weizhi.jpg</img>
-            <position>Associate Professor</position>
+            <position>Full Professor</position>
             <desc>
                 &lt;a href=&quot;https://sptagelab.gitlab.io/&quot;&gt;&lt;font color=&quot;blue&quot;>SPTAGE Lab&lt;/font&gt;&lt;/a&gt;&lt;br&gt;
-                &lt;a href=&quot;http://www.compute.dtu.dk/english&quot;&gt;Department of Applied Mathematics and Computer Science&lt;/a&gt;&lt;br&gt;
-                Technical University of Denmark (DTU)&lt;br&gt;
-                Office: Room 230, Building 322 &lt;br&gt;
-                Email: weme [AT] dtu.dk
+                &lt;a href=&quot;http://www.compute.dtu.dk/english&quot;&gt;School of Computing and Communications&lt;/a&gt;&lt;br&gt;
+                Lancaster University, LA1 4YR, UK &lt;br&gt;
+                Office: InfoLab21, Lancaster University
+                
             </desc>
         </faculty>
 
