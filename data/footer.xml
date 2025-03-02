@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <relatedGroups>
     <relatedGroup>
-        <name>DTU</name>
-        <url>https://www.dtu.dk</url>
-        <img>img/footer/dtu.png</img>
-    </relatedGroup>
-    <relatedGroup>
         <name>SPT A.G.E. Lab</name>
         <url>https://sptagelab.github.com</url>
         <img>img/footer/logo.jpg</img>
-    </relatedGroup>
-    <relatedGroup>
-        <name>CyberHub DK</name>
-        <url>https://cyberhub.dk</url>
-        <img>img/footer/danish-hub.jpg</img>
     </relatedGroup>
 </relatedGroups>
