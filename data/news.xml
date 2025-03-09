@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <newsBunch>
 	<news>
+		<date>08 March, 2024 00:00:00</date>
+		<content>Our paper &quot;Detecting Post Editing of Multimedia Images using Transfer Learning and Fine Tuning&quot; has been Published by &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3633284&quot;&gt;ACM TOMM&lt;/a&gt;. Congratulations Simon and Malthe!</content>
+	</news>
+	<news>
 		<date>01 October, 2023 00:00:00</date>
 		<content>Our paper &quot;Securing IoT Firmware Dispatch System With Blockchain&quot; has been accepted by &lt;a href=&quot;https://ieee-cybermatics.org/2023/blockchain/&quot;&gt;IEEE Blockchain 2023&lt;/a&gt;. Congratulations Vince and Wayne!</content>
 	</news>
