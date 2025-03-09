@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <newsBunch>
 	<news>
+		<date>23 September, 2024 00:00:00</date>
+		<content>Our paper &quot;BANN-TMGuard: Toward Touch-Movement-Based Screen Unlock Patterns via Blockchain-Enabled Artificial Neural Networks on IoT Devices&quot; has been Published by &lt;a href=&quot;https://ieeexplore.ieee.org/document/10685479&quot;&gt;IEEE IoTJ &lt;/a&gt;. </content>
+	</news>
+	<news>
+		<date>01 May, 2024 00:00:00</date>
+		<content>Our paper &quot;can-train-and-test: A curated CAN dataset for automotive intrusion detection&quot; has been Published by &lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0167404824000786&quot;&gt;Computers & Security &lt;/a&gt;. Congratulations Brooke!</content>
+	</news>
+	<news>
 		<date>08 March, 2024 00:00:00</date>
 		<content>Our paper &quot;Detecting Post Editing of Multimedia Images using Transfer Learning and Fine Tuning&quot; has been Published by &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3633284&quot;&gt;ACM TOMM&lt;/a&gt;. Congratulations Simon and Malthe!</content>
 	</news>
