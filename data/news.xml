@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <newsBunch>
 	<news>
+		<date>17 January, 2025 00:00:00</date>
+		<content>Our paper &quot;Traffic Accident Detection via Fusion-GRU based Future Frame Detection Box Prediction&quot; has been accepted by &lt;a href=&quot;https://icc2025.ieee-icc.org/&quot;&gt;IEEE ICC 2025&lt;/a&gt;. Congratulations Ziyuan!</content>
+	</news>
+	<news>
+		<date>05 November, 2024 00:00:00</date>
+		<content>Our paper &quot;Blockchain-Driven Distributed Edge Intelligence for Enhanced Internet-of-Vehicles&quot; has been Published by &lt;a href=&quot;https://ieeexplore.ieee.org/document/10744213&quot;&gt;IEEE IoTJ&lt;/a&gt;. Congratulations Xiaofu!</content>
+	</news>
+	<news>
 		<date>23 September, 2024 00:00:00</date>
 		<content>Our paper &quot;BANN-TMGuard: Toward Touch-Movement-Based Screen Unlock Patterns via Blockchain-Enabled Artificial Neural Networks on IoT Devices&quot; has been Published by &lt;a href=&quot;https://ieeexplore.ieee.org/document/10685479&quot;&gt;IEEE IoTJ &lt;/a&gt;. </content>
 	</news>
