@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <events>
     <event>
+        <title>EISA 2025</title>
+        <type>Conference</type>
+        <location>Hangzhou, China</location>
+        <date>12 December, 2025</date>
+        <url>conferences/EISA2025/</url>
+        <desc>The 6th International Conference on Emerging Information Security and Applications</desc>
+    </event>
+    <event>
+        <title>AIBlock 2025</title>
+        <type>Symposium</type>
+        <location>Beijing, China</location>
+        <date>19 July, 2025</date>
+        <url>conferences/AIBlock2025/</url>
+        <desc>The 7th International Conference on Application Intelligence and Blockchain Security</desc>
+    </event>
+    <event>
+        <title>ADIoT 2025</title>
+        <type>Symposium</type>
+        <location>Changzhou, China</location>
+        <date>14 November, 2025</date>
+        <url>conferences/ADIoT2025/</url>
+        <desc>The 8th International Conference on Attacks and Defenses for Internet-of-Things</desc>
+    </event>
+    <event>
         <title>EISA 2024</title>
         <type>Symposium</type>
         <location>Changzhou, China</location>
