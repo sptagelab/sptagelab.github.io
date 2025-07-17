@@ -10,7 +10,7 @@
     </event>
     <event>
         <title>AIBlock 2025</title>
-        <type>Symposium</type>
+        <type>Conference</type>
         <location>Beijing, China</location>
         <date>19 July, 2025</date>
         <url>conferences/AIBlock2025/</url>
@@ -18,7 +18,7 @@
     </event>
     <event>
         <title>ADIoT 2025</title>
-        <type>Symposium</type>
+        <type>Conference</type>
         <location>Changzhou, China</location>
         <date>14 November, 2025</date>
         <url>conferences/ADIoT2025/</url>
