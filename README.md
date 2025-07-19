@@ -4,8 +4,6 @@
 
 - <b>css</b> (CSS files for the main SPTA.G.E. website.)
 
-- <b>conferences</b> (<u>Archived</u> conference websites' folder.)
-
 - <b>data</b> (Distributed DB/XML files of the website. Please update your information here with the respected XML file of different section.)
 
 - <b>doc</b> (General files (e.g., Papers, Picutres, ..etc) that are related to the content of the main SPTA.G.E. website.)
@@ -16,11 +14,21 @@
 
 - <b>projects</b> (<u>Archived</u> project websites' folder.)
 
-- <b>symposiums</b> (<u>Archived</u> symposium websites' folder.)
-
-- <b>workshops</b> (Workshop websites' folder.)
-
 ## 
+
+## About Future Conferences and Events.
+
+Please note that events hosted primarily owned by SPTAge (E.g., EISA, AIBlock and ADIoT), please perform the update in their respective repository. For events that SPTAge is only acting as host, put the website and information to Events repository. The following is their domain names respectively.
+
+- <b> EISA </b> (https://eisa.sptagelab.org)
+
+- <b> AIBlock </b> (https://aiblock.sptagelab.org)
+
+- <b> ADIoT </b> (https://adiot.sptagelab.org)
+
+- <b> General Events </b> (https://events.sptagelab.org)
+
+Do not delete the <b>conferences</b> folder in current repository, redirectors are still deployed there.
 
 ## Data Entries
 

@@ -77,7 +77,7 @@
         <type>Conference</type>
         <location>Copenhagen, Denmark</location>
         <date>24-25 August, 2023</date>
-        <url>conferences/ISPEC2023/</url>
+        <url>https://events.sptagelab.org/ISPEC2023/</url>
         <desc>The 18th International Conference on Information Security Practice and Experience</desc>
     </event>
     <event>
@@ -93,7 +93,7 @@
         <type>Symposium</type>
         <location>Melbourne, Australia</location>
         <date>10 July, 2023</date>
-        <url>symposiums/ASSS2023/</url>
+        <url>https://events.sptagelab.org/ASSS2023/</url>
         <desc>The 3rd International Symposium on Advanced Security on Software and Systems</desc>
     </event>
     <event>
@@ -117,7 +117,7 @@
         <type>Conference</type>
         <location>Copenhagen, Denmark</location>
         <date>10-12 October, 2022</date>
-        <url>conferences/ICA3PP2022/</url>
+        <url>https://events.sptagelab.org/ICA3PP2022/</url>
         <desc>The 22nd International Conference on Algorithms and Architectures for Parallel Processing</desc>
     </event>
     <event>
@@ -125,7 +125,7 @@
         <type>Conference</type>
         <location>Copenhagen, Denmark</location>
         <date>26-30 September, 2022</date>
-        <url>conferences/ESORICS2022/</url>
+        <url>https://events.sptagelab.org/ESORICS2022/</url>
         <desc>The 27th European Symposium on Research in Computer Security</desc>
     </event>
     <event>
@@ -141,7 +141,7 @@
         <type>Workshop</type>
         <location>Copenhagen, Denmark</location>
         <date>26-30 September, 2022</date>
-        <url>workshops/STM2022/</url>
+        <url>https://events.sptagelab.org/STM2022/</url>
         <desc>The 18th International Workshop on Security and Trust Management</desc>
     </event>
     <event>
@@ -157,7 +157,7 @@
         <type>Conference</type>
         <location>Copenhagen, Denmark</location>
         <date>13-15 June, 2022</date>
-        <url>conferences/IFIPSEC2022/</url>
+        <url>https://events.sptagelab.org/IFIPSEC2022/</url>
         <desc>The 37th International Conference on ICT Systems Security and Privacy Protection</desc>
     </event>
     <event>
@@ -165,7 +165,7 @@
         <type>Symposium</type>
         <location>Genoa, Italy</location>
         <date>6 June, 2022</date>
-        <url>symposiums/ASSS2022/</url>
+        <url>https://events.sptagelab.org/ASSS2022/</url>
         <desc>The 2nd International Symposium on Advanced Security on Software and Systems</desc>
     </event>
     <event>
@@ -181,7 +181,7 @@
         <type>Symposium</type>
         <location>Copenhagen, Denmark</location>
         <date>9-11 November, 2021</date>
-        <url>symposiums/CSS2021/</url>
+        <url>https://events.sptagelab.org/CSS2021/</url>
         <desc>The 13th International Symposium on Cyberspace Safety and Security</desc>
     </event>
     <event>
@@ -205,7 +205,7 @@
         <type>Symposium</type>
         <location>Hong Kong (S.A.R.)</location>
         <date>7 June, 2021</date>
-        <url>symposiums/ASSS2021/</url>
+        <url>https://events.sptagelab.org/ASSS2021/</url>
         <desc>The 1st International Symposium on Advanced Security on Software and Systems</desc>
     </event>
     <event>
@@ -237,7 +237,7 @@
         <type>Conference</type>
         <location>Copenhagen, Denmark</location>
         <date>24-27 August, 2020</date>
-        <url>conferences/ICICS2020/</url>
+        <url>https://events.sptagelab.org/ICICS2020/</url>
         <desc>The 22nd International Conference on Information and Communications Security</desc>
     </event>
     <event>
