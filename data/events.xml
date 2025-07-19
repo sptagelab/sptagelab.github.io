@@ -13,7 +13,7 @@
         <type>Conference</type>
         <location>Changzhou, China</location>
         <date>14-16 November, 2025</date>
-        <url>conferences/ADIoT2025/</url>
+        <url>https://adiot.sptagelab.org/2025/</url>
         <desc>The 8th International Conference on Attacks and Defenses for Internet-of-Things</desc>
     </event>
     <event>
@@ -31,6 +31,14 @@
         <date>18 October, 2024</date>
         <url>symposiums/EISA2024/</url>
         <desc>The 5th International Symposium on Emerging Information Security and Applications</desc>
+    </event>
+    <event>
+        <title>ADIoT 2024</title>
+        <type>Conference</type>
+        <location>Hangzhou, China</location>
+        <date>26-27 December, 2024</date>
+        <url>https://adiot.sptagelab.org/2024/</url>
+        <desc>The 7th International Conference on Attacks and Defenses for Internet-of-Things</desc>
     </event>
     <event>
         <title>AIBlock 2024</title>
@@ -61,7 +69,7 @@
         <type>Workshop</type>
         <location>The Hague, Netherland</location>
         <date>25-29 September, 2023</date>
-        <url>workshops/ADIOT2023/</url>
+        <url>https://adiot.sptagelab.org/2023/</url>
         <desc>The 6th International Workshop on Attacks and Defenses for Internet-of-Things</desc>
     </event>
     <event>
@@ -125,7 +133,7 @@
         <type>Workshop</type>
         <location>Copenhagen, Denmark</location>
         <date>29-30 September, 2022</date>
-        <url>workshops/ADIOT2021/</url>
+        <url>https://adiot.sptagelab.org/2021/</url>
         <desc>The 5th International Workshop on Attacks and Defenses for Internet-of-Things</desc>
     </event>
     <event>
@@ -181,7 +189,7 @@
         <type>Workshop</type>
         <location>Darmstadt, Germany</location>
         <date>4-8 October, 2021</date>
-        <url>workshops/ADIOT2021/</url>
+        <url>https://adiot.sptagelab.org/2021/</url>
         <desc>The 4th International Workshop on Attacks and Defenses for Internet-of-Things</desc>
     </event>
     <event>
@@ -221,7 +229,7 @@
         <type>Workshop</type>
         <location>Surrey, United Kingdom</location>
         <date>14-18 September, 2020</date>
-        <url>workshops/ADIOT2020/</url>
+        <url>https://adiot.sptagelab.org/2020/</url>
         <desc>The 3rd International Workshop on Attacks and Defenses for Internet-of-Things</desc>
     </event>
     <event>
@@ -237,7 +245,7 @@
         <type>Workshop</type>
         <location>Luxembourg, Luxembourg</location>
         <date>23-27 September, 2019</date>
-        <url>workshops/ADIOT2019/</url>
+        <url>https://adiot.sptagelab.org/2019/</url>
         <desc>The 2nd International Workshop on Attacks and Defenses for Internet-of-Things</desc>
     </event>
     <event>
