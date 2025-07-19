@@ -21,7 +21,7 @@
         <type>Conference</type>
         <location>Beijing, China</location>
         <date>19-20 July, 2025</date>
-        <url>conferences/AIBlock2025/</url>
+        <url>https://aiblock.sptagelab.org/2025/</url>
         <desc>The 7th International Conference on Application Intelligence and Blockchain Security</desc>
     </event>
     <event>
@@ -37,7 +37,7 @@
         <type>Workshop</type>
         <location>Abu Dhabi, United Arab Emirates</location>
         <date>5-8 March, 2024</date>
-        <url>workshops/AIBLOCK2024/</url>
+        <url>https://aiblock.sptagelab.org/2024/</url>
         <desc>The 6th International Workshop on Application Intelligence and Blockchain Security</desc>
     </event>
     <event>
@@ -93,7 +93,7 @@
         <type>Workshop</type>
         <location>Kyoto, Japan</location>
         <date>19-22 June, 2023</date>
-        <url>workshops/AIBLOCK2023/</url>
+        <url>https://aiblock.sptagelab.org/2023/</url>
         <desc>The 5th International Workshop on Application Intelligence and Blockchain Security</desc>
     </event>
     <event>
@@ -141,7 +141,7 @@
         <type>Workshop</type>
         <location>Rome, Italy</location>
         <date>20-23 June, 2022</date>
-        <url>workshops/AIBLOCK2022/</url>
+        <url>https://aiblock.sptagelab.org/2022/</url>
         <desc>The 4th International Workshop on Application Intelligence and Blockchain Security</desc>
     </event>
     <event>
@@ -189,7 +189,7 @@
         <type>Workshop</type>
         <location>Kamakura, Japan</location>
         <date>21-24 June, 2021</date>
-        <url>workshops/AIBLOCK2021/</url>
+        <url>https://aiblock.sptagelab.org/2021/</url>
         <desc>The 3rd International Workshop on Application Intelligence and Blockchain Security</desc>
     </event>
     <event>
@@ -213,7 +213,7 @@
         <type>Workshop</type>
         <location>Rome, Italy</location>
         <date>19-22 October, 2020</date>
-        <url>workshops/AIBLOCK2020/</url>
+        <url>https://aiblock.sptagelab.org/2020/</url>
         <desc>The 2nd International Workshop on Application Intelligence and Blockchain Security</desc>
     </event>
     <event>
@@ -245,7 +245,7 @@
         <type>Workshop</type>
         <location>Bogota, Colombia</location>
         <date>5-7 June, 2019</date>
-        <url>workshops/AIBLOCK2019/</url>
+        <url>https://aiblock.sptagelab.org/2019/</url>
         <desc>The 1st International Workshop on Application Intelligence and Blockchain Security</desc>
     </event>
     <event>
