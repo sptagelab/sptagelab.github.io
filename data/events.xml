@@ -5,7 +5,7 @@
         <type>Conference</type>
         <location>Hangzhou, China</location>
         <date>12-13 December, 2025</date>
-        <url>conferences/EISA2025/</url>
+        <url>https://eisa.sptagelab.org/2025/</url>
         <desc>The 6th International Conference on Emerging Information Security and Applications</desc>
     </event>
     <event>
@@ -28,8 +28,8 @@
         <title>EISA 2024</title>
         <type>Symposium</type>
         <location>Changzhou, China</location>
-        <date>18 October, 2024</date>
-        <url>symposiums/EISA2024/</url>
+        <date>18-19 October, 2024</date>
+        <url>https://eisa.sptagelab.org/2024/</url>
         <desc>The 5th International Symposium on Emerging Information Security and Applications</desc>
     </event>
     <event>
@@ -53,7 +53,7 @@
         <type>Symposium</type>
         <location>Hangzhou, China</location>
         <date>6-7 December, 2023</date>
-        <url>symposiums/EISA2023/</url>
+        <url>https://eisa.sptagelab.org/2023/</url>
         <desc>The 4th International Symposium on Emerging Information Security and Applications</desc>
     </event>
     <event>
@@ -109,7 +109,7 @@
         <type>Symposium</type>
         <location>Copenhagen, Denmark</location>
         <date>29-30 October, 2022</date>
-        <url>symposiums/EISA2022/</url>
+        <url>https://eisa.sptagelab.org/2022/</url>
         <desc>The 3rd International Symposium on Emerging Information Security and Applications</desc>
     </event>
     <event>
@@ -173,7 +173,7 @@
         <type>Symposium</type>
         <location>Copenhagen, Denmark</location>
         <date>12-13 November, 2021</date>
-        <url>symposiums/EISA2021/</url>
+        <url>https://eisa.sptagelab.org/2021/</url>
         <desc>The 2nd International Symposium on Emerging Information Security and Applications</desc>
     </event>
     <event>
@@ -213,7 +213,7 @@
         <type>Symposium</type>
         <location>Nanjing, China</location>
         <date>18-20 December, 2020</date>
-        <url>symposiums/EISA2020/</url>
+        <url>https://eisa.sptagelab.org/2020/</url>
         <desc>The 1st International Symposium on Emerging Information Security and Applications</desc>
     </event>
     <event>
